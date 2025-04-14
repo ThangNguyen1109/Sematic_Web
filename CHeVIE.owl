@@ -1890,9 +1890,9 @@ sameThing(P1, P2) :- type(P1, Point), type(P2, Point), spaciallyIntersects(P1, P
     <owl:Class rdf:about="https://CHeVIE.vn/ontologies/Baccalaureate">
         <rdfs:subClassOf rdf:resource="https://CHeVIE.vn/ontologies/AcademicDegree"/>
 		<rdfs:label xml:lang="en">Baccalaureate</rdfs:label>
-    <rdfs:label xml:lang="vi">Cử nhân</rdfs:label>
+    <rdfs:label xml:lang="vi">Bằng Tú tài</rdfs:label>
     <rdfs:comment xml:lang="en">A class representing the academic degree of Baccalaureate, typically an undergraduate degree awarded to historical figures in educational contexts."</rdfs:comment>
-    <rdfs:comment xml:lang="vi">Một lớp đại diện cho học vị Cử nhân, thường là bằng cấp đại học được trao cho các nhân vật lịch sử trong bối cảnh giáo dục."</rdfs:comment>
+    <rdfs:comment xml:lang="vi">Một lớp đại diện cho học vị Tú tài, thường là bằng cấp đại học được trao cho các nhân vật lịch sử trong bối cảnh giáo dục."</rdfs:comment>
     </owl:Class>
     
 
