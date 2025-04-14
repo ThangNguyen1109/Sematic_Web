@@ -168,6 +168,10 @@ above the local reference ellipsoid).</rdfs:comment>
     <owl:AnnotationProperty rdf:about="https://CHeVIE.vn/ontologies/academicDegree">
         <rdfs:range rdf:resource="https://CHeVIE.vn/ontologies/Statement"/>
         <rdfs:domain rdf:resource="https://CHeVIE.vn/ontologies/Person"/>
+		<rdfs:label xml:lang="en">Academic Degree</rdfs:label>
+    <rdfs:label xml:lang="vi">Bằng học thuật</rdfs:label>
+    <rdfs:comment xml:lang="en">Represents the academic degrees associated with a person.</rdfs:comment>
+    <rdfs:comment xml:lang="vi">Đại diện cho các bằng cấp học thuật liên quan đến một người.</rdfs:comment>
     </owl:AnnotationProperty>
     
 
@@ -177,6 +181,10 @@ above the local reference ellipsoid).</rdfs:comment>
     <owl:AnnotationProperty rdf:about="https://CHeVIE.vn/ontologies/birthDate">
         <rdfs:range rdf:resource="https://CHeVIE.vn/ontologies/Statement"/>
         <rdfs:domain rdf:resource="https://CHeVIE.vn/ontologies/Person"/>
+		<rdfs:label xml:lang="en">Birth Date</rdfs:label>
+    <rdfs:label xml:lang="vi">Ngày sinh</rdfs:label>
+    <rdfs:comment xml:lang="en">Represents the birth date of a person.</rdfs:comment>
+    <rdfs:comment xml:lang="vi">Đại diện cho ngày sinh của một người.</rdfs:comment>
     </owl:AnnotationProperty>
     
 
@@ -186,6 +194,10 @@ above the local reference ellipsoid).</rdfs:comment>
     <owl:AnnotationProperty rdf:about="https://CHeVIE.vn/ontologies/birthPlace">
         <rdfs:range rdf:resource="https://CHeVIE.vn/ontologies/Statement"/>
         <rdfs:domain rdf:resource="https://CHeVIE.vn/ontologies/Person"/>
+		<rdfs:label xml:lang="en">Birth Place</rdfs:label>
+    <rdfs:label xml:lang="vi">Nơi sinh</rdfs:label>
+    <rdfs:comment xml:lang="en">Represents the place of birth for a person.</rdfs:comment>
+    <rdfs:comment xml:lang="vi">Đại diện cho nơi sinh của một người.</rdfs:comment>
     </owl:AnnotationProperty>
     
 
@@ -195,6 +207,10 @@ above the local reference ellipsoid).</rdfs:comment>
     <owl:AnnotationProperty rdf:about="https://CHeVIE.vn/ontologies/broaderDivision">
         <rdfs:range rdf:resource="https://CHeVIE.vn/ontologies/Statement"/>
         <rdfs:domain rdf:resource="https://CHeVIE.vn/ontologies/AdministrativeDivision"/>
+		<rdfs:label xml:lang="en">Broader Division</rdfs:label>
+    <rdfs:label xml:lang="vi">Phân khu rộng hơn</rdfs:label>
+    <rdfs:comment xml:lang="en">Represents a broader administrative division that contains this division.</rdfs:comment>
+    <rdfs:comment xml:lang="vi">Đại diện cho phân khu hành chính rộng hơn chứa phân khu này.</rdfs:comment>
     </owl:AnnotationProperty>
     
 
@@ -205,6 +221,10 @@ above the local reference ellipsoid).</rdfs:comment>
         <rdfs:seeAlso>https://www.w3.org/TR/skos-reference/#broader</rdfs:seeAlso>
         <rdfs:range rdf:resource="https://CHeVIE.vn/ontologies/Statement"/>
         <rdfs:domain rdf:resource="https://CHeVIE.vn/ontologies/Period"/>
+		<rdfs:label xml:lang="en">Broader Period</rdfs:label>
+    <rdfs:label xml:lang="vi">Thời kỳ rộng hơn</rdfs:label>
+    <rdfs:comment xml:lang="en">Refers to a broader time period that contains the current period.</rdfs:comment>
+    <rdfs:comment xml:lang="vi">Đề cập đến một thời kỳ rộng hơn chứa thời kỳ hiện tại.</rdfs:comment>
     </owl:AnnotationProperty>
     
 
@@ -223,6 +243,10 @@ above the local reference ellipsoid).</rdfs:comment>
     <owl:AnnotationProperty rdf:about="https://CHeVIE.vn/ontologies/brotherInLaw">
         <rdfs:range rdf:resource="https://CHeVIE.vn/ontologies/Statement"/>
         <rdfs:domain rdf:resource="https://CHeVIE.vn/ontologies/Person"/>
+		<rdfs:label xml:lang="en">Brother-in-law</rdfs:label>
+    <rdfs:label xml:lang="vi">Anh/em rể</rdfs:label>
+    <rdfs:comment xml:lang="en">Represents the relationship of brother-in-law for a person.</rdfs:comment>
+    <rdfs:comment xml:lang="vi">Đại diện cho mối quan hệ anh/em rể của một người.</rdfs:comment>
     </owl:AnnotationProperty>
     
 
@@ -232,6 +256,10 @@ above the local reference ellipsoid).</rdfs:comment>
     <owl:AnnotationProperty rdf:about="https://CHeVIE.vn/ontologies/builtBy">
         <rdfs:range rdf:resource="https://CHeVIE.vn/ontologies/Statement"/>
         <rdfs:domain rdf:resource="https://CHeVIE.vn/ontologies/Site"/>
+		<rdfs:label xml:lang="en">Built By</rdfs:label>
+    <rdfs:label xml:lang="vi">Xây bởi</rdfs:label>
+    <rdfs:comment xml:lang="en">Indicates the entity responsible for building a site.</rdfs:comment>
+    <rdfs:comment xml:lang="vi">Chỉ ra đơn vị chịu trách nhiệm xây dựng một địa điểm.</rdfs:comment>
     </owl:AnnotationProperty>
     
 
@@ -241,6 +269,10 @@ above the local reference ellipsoid).</rdfs:comment>
     <owl:AnnotationProperty rdf:about="https://CHeVIE.vn/ontologies/builtDate">
         <rdfs:range rdf:resource="https://CHeVIE.vn/ontologies/Statement"/>
         <rdfs:domain rdf:resource="https://CHeVIE.vn/ontologies/Site"/>
+		<rdfs:label xml:lang="en">Built Date</rdfs:label>
+    <rdfs:label xml:lang="vi">Ngày xây dựng</rdfs:label>
+    <rdfs:comment xml:lang="en">Represents the date a site was built.</rdfs:comment>
+    <rdfs:comment xml:lang="vi">Đại diện cho ngày một địa điểm được xây dựng.</rdfs:comment>
     </owl:AnnotationProperty>
     
 
@@ -250,6 +282,10 @@ above the local reference ellipsoid).</rdfs:comment>
     <owl:AnnotationProperty rdf:about="https://CHeVIE.vn/ontologies/builtIn">
         <rdfs:range rdf:resource="https://CHeVIE.vn/ontologies/Statement"/>
         <rdfs:domain rdf:resource="https://CHeVIE.vn/ontologies/Site"/>
+		<rdfs:label xml:lang="en">Built In</rdfs:label>
+    <rdfs:label xml:lang="vi">Xây dựng tại</rdfs:label>
+    <rdfs:comment xml:lang="en">Indicates the location where a site was constructed.</rdfs:comment>
+    <rdfs:comment xml:lang="vi">Chỉ ra vị trí nơi một địa điểm được xây dựng.</rdfs:comment>
     </owl:AnnotationProperty>
     
 
@@ -259,6 +295,10 @@ above the local reference ellipsoid).</rdfs:comment>
     <owl:AnnotationProperty rdf:about="https://CHeVIE.vn/ontologies/buriedPlace">
         <rdfs:range rdf:resource="https://CHeVIE.vn/ontologies/Statement"/>
         <rdfs:domain rdf:resource="https://CHeVIE.vn/ontologies/Person"/>
+		<rdfs:label xml:lang="en">Buried Place</rdfs:label>
+    <rdfs:label xml:lang="vi">Nơi an táng</rdfs:label>
+    <rdfs:comment xml:lang="en">Represents the place where a person is buried.</rdfs:comment>
+    <rdfs:comment xml:lang="vi">Đại diện cho nơi an táng của một người.</rdfs:comment>
     </owl:AnnotationProperty>
     
 
@@ -268,6 +308,10 @@ above the local reference ellipsoid).</rdfs:comment>
     <owl:AnnotationProperty rdf:about="https://CHeVIE.vn/ontologies/child">
         <rdfs:range rdf:resource="https://CHeVIE.vn/ontologies/Statement"/>
         <rdfs:domain rdf:resource="https://CHeVIE.vn/ontologies/Person"/>
+		<rdfs:label xml:lang="en">Child</rdfs:label>
+    <rdfs:label xml:lang="vi">Con cái</rdfs:label>
+    <rdfs:comment xml:lang="en">Represents the children of a person.</rdfs:comment>
+    <rdfs:comment xml:lang="vi">Đại diện cho con cái của một người.</rdfs:comment>
     </owl:AnnotationProperty>
     
 
@@ -277,6 +321,10 @@ above the local reference ellipsoid).</rdfs:comment>
     <owl:AnnotationProperty rdf:about="https://CHeVIE.vn/ontologies/commemorate">
         <rdfs:range rdf:resource="https://CHeVIE.vn/ontologies/Statement"/>
         <rdfs:domain rdf:resource="https://CHeVIE.vn/ontologies/Site"/>
+		<rdfs:label xml:lang="en">Commemorate</rdfs:label>
+    <rdfs:label xml:lang="vi">Tưởng niệm</rdfs:label>
+    <rdfs:comment xml:lang="en">Represents the commemoration associated with a site.</rdfs:comment>
+    <rdfs:comment xml:lang="vi">Đại diện cho sự tưởng niệm liên quan đến một địa điểm.</rdfs:comment>
     </owl:AnnotationProperty>
     
 
@@ -286,6 +334,10 @@ above the local reference ellipsoid).</rdfs:comment>
     <owl:AnnotationProperty rdf:about="https://CHeVIE.vn/ontologies/country">
         <rdfs:range rdf:resource="https://CHeVIE.vn/ontologies/Statement"/>
         <rdfs:domain rdf:resource="https://CHeVIE.vn/ontologies/AdministrativeDivision"/>
+		<rdfs:label xml:lang="en">Country</rdfs:label>
+    <rdfs:label xml:lang="vi">Quốc gia</rdfs:label>
+    <rdfs:comment xml:lang="en">Represents the country within an administrative division.</rdfs:comment>
+    <rdfs:comment xml:lang="vi">Đại diện cho quốc gia trong một phân khu hành chính.</rdfs:comment>
     </owl:AnnotationProperty>
     
 
@@ -295,6 +347,10 @@ above the local reference ellipsoid).</rdfs:comment>
     <owl:AnnotationProperty rdf:about="https://CHeVIE.vn/ontologies/deathDate">
         <rdfs:range rdf:resource="https://CHeVIE.vn/ontologies/Statement"/>
         <rdfs:domain rdf:resource="https://CHeVIE.vn/ontologies/Person"/>
+		<rdfs:label xml:lang="en">Death Date</rdfs:label>
+    <rdfs:label xml:lang="vi">Ngày mất</rdfs:label>
+    <rdfs:comment xml:lang="en">Represents the date of death of a person.</rdfs:comment>
+    <rdfs:comment xml:lang="vi">Đại diện cho ngày mất của một người.</rdfs:comment>
     </owl:AnnotationProperty>
     
 
@@ -304,13 +360,22 @@ above the local reference ellipsoid).</rdfs:comment>
     <owl:AnnotationProperty rdf:about="https://CHeVIE.vn/ontologies/deathPlace">
         <rdfs:range rdf:resource="https://CHeVIE.vn/ontologies/Statement"/>
         <rdfs:domain rdf:resource="https://CHeVIE.vn/ontologies/Person"/>
+		<rdfs:label xml:lang="en">Death Place</rdfs:label>
+    <rdfs:label xml:lang="vi">Nơi mất</rdfs:label>
+    <rdfs:comment xml:lang="en">Represents the place of death of a person.</rdfs:comment>
+    <rdfs:comment xml:lang="vi">Đại diện cho nơi mất của một người.</rdfs:comment>
     </owl:AnnotationProperty>
     
 
 
     <!-- https://CHeVIE.vn/ontologies/description -->
 
-    <owl:AnnotationProperty rdf:about="https://CHeVIE.vn/ontologies/description"/>
+    <owl:AnnotationProperty rdf:about="https://CHeVIE.vn/ontologies/description">
+		<rdfs:label xml:lang="en">Description</rdfs:label>
+    <rdfs:label xml:lang="vi">Mô tả</rdfs:label>
+    <rdfs:comment xml:lang="en">Provides a detailed description of an entity.</rdfs:comment>
+    <rdfs:comment xml:lang="vi">Cung cấp mô tả chi tiết về một thực thể.</rdfs:comment>
+	</owl:AnnotationProperty>
     
 
 
@@ -320,6 +385,9 @@ above the local reference ellipsoid).</rdfs:comment>
         <rdfs:label xml:lang="en">end</rdfs:label>
         <rdfs:range rdf:resource="https://CHeVIE.vn/ontologies/Statement"/>
         <rdfs:domain rdf:resource="https://CHeVIE.vn/ontologies/Period"/>
+    <rdfs:label xml:lang="vi">Kết thúc</rdfs:label>
+    <rdfs:comment xml:lang="en">Represents the end point of a period.</rdfs:comment>
+    <rdfs:comment xml:lang="vi">Đại diện cho điểm kết thúc của một thời kỳ.</rdfs:comment>
     </owl:AnnotationProperty>
     
 
@@ -329,6 +397,10 @@ above the local reference ellipsoid).</rdfs:comment>
     <owl:AnnotationProperty rdf:about="https://CHeVIE.vn/ontologies/ethnicity">
         <rdfs:range rdf:resource="https://CHeVIE.vn/ontologies/Statement"/>
         <rdfs:domain rdf:resource="https://CHeVIE.vn/ontologies/Person"/>
+		<rdfs:label xml:lang="en">Ethnicity</rdfs:label>
+    <rdfs:label xml:lang="vi">Dân tộc</rdfs:label>
+    <rdfs:comment xml:lang="en">Represents the ethnic group a person belongs to.</rdfs:comment>
+    <rdfs:comment xml:lang="vi">Đại diện cho nhóm dân tộc mà một người thuộc về.</rdfs:comment>
     </owl:AnnotationProperty>
     
 
@@ -338,6 +410,10 @@ above the local reference ellipsoid).</rdfs:comment>
     <owl:AnnotationProperty rdf:about="https://CHeVIE.vn/ontologies/eventPlace">
         <rdfs:range rdf:resource="https://CHeVIE.vn/ontologies/Statement"/>
         <rdfs:domain rdf:resource="https://CHeVIE.vn/ontologies/HistoricEvent"/>
+		<rdfs:label xml:lang="en">Event Place</rdfs:label>
+    <rdfs:label xml:lang="vi">Địa điểm sự kiện</rdfs:label>
+    <rdfs:comment xml:lang="en">Indicates the location where a historic event took place.</rdfs:comment>
+    <rdfs:comment xml:lang="vi">Chỉ ra địa điểm nơi một sự kiện lịch sử diễn ra.</rdfs:comment>
     </owl:AnnotationProperty>
     
 
@@ -347,6 +423,10 @@ above the local reference ellipsoid).</rdfs:comment>
     <owl:AnnotationProperty rdf:about="https://CHeVIE.vn/ontologies/father">
         <rdfs:range rdf:resource="https://CHeVIE.vn/ontologies/Statement"/>
         <rdfs:domain rdf:resource="https://CHeVIE.vn/ontologies/Person"/>
+		<rdfs:label xml:lang="en">Father</rdfs:label>
+    <rdfs:label xml:lang="vi">Cha</rdfs:label>
+    <rdfs:comment xml:lang="en">Represents the father of a person.</rdfs:comment>
+    <rdfs:comment xml:lang="vi">Đại diện cho người cha của một người.</rdfs:comment>
     </owl:AnnotationProperty>
     
 
@@ -356,6 +436,10 @@ above the local reference ellipsoid).</rdfs:comment>
     <owl:AnnotationProperty rdf:about="https://CHeVIE.vn/ontologies/festivalCommemorateEvent">
         <rdfs:range rdf:resource="https://CHeVIE.vn/ontologies/Statement"/>
         <rdfs:domain rdf:resource="https://CHeVIE.vn/ontologies/Festival"/>
+		<rdfs:label xml:lang="en">Festival Commemorate Event</rdfs:label>
+    <rdfs:label xml:lang="vi">Lễ hội tưởng niệm sự kiện</rdfs:label>
+    <rdfs:comment xml:lang="en">Indicates the event a festival commemorates.</rdfs:comment>
+    <rdfs:comment xml:lang="vi">Chỉ ra sự kiện mà một lễ hội tưởng niệm.</rdfs:comment>
     </owl:AnnotationProperty>
     
 
@@ -365,6 +449,10 @@ above the local reference ellipsoid).</rdfs:comment>
     <owl:AnnotationProperty rdf:about="https://CHeVIE.vn/ontologies/festivalCommemorateHistoricalFigure">
         <rdfs:range rdf:resource="https://CHeVIE.vn/ontologies/Statement"/>
         <rdfs:domain rdf:resource="https://CHeVIE.vn/ontologies/Festival"/>
+		<rdfs:label xml:lang="en">Festival Commemorate Historical Figure</rdfs:label>
+    <rdfs:label xml:lang="vi">Lễ hội tưởng niệm nhân vật lịch sử</rdfs:label>
+    <rdfs:comment xml:lang="en">Indicates the historical figure a festival commemorates.</rdfs:comment>
+    <rdfs:comment xml:lang="vi">Chỉ ra nhân vật lịch sử mà một lễ hội tưởng niệm.</rdfs:comment>
     </owl:AnnotationProperty>
     
 
@@ -374,6 +462,10 @@ above the local reference ellipsoid).</rdfs:comment>
     <owl:AnnotationProperty rdf:about="https://CHeVIE.vn/ontologies/festivalOccurOver">
         <rdfs:range rdf:resource="https://CHeVIE.vn/ontologies/Statement"/>
         <rdfs:domain rdf:resource="https://CHeVIE.vn/ontologies/Festival"/>
+		<rdfs:label xml:lang="en">Festival Occur Over</rdfs:label>
+    <rdfs:label xml:lang="vi">Lễ hội diễn ra qua</rdfs:label>
+    <rdfs:comment xml:lang="en">Indicates the duration over which a festival occurs.</rdfs:comment>
+    <rdfs:comment xml:lang="vi">Chỉ ra khoảng thời gian mà một lễ hội diễn ra.</rdfs:comment>
     </owl:AnnotationProperty>
     
 
@@ -383,6 +475,10 @@ above the local reference ellipsoid).</rdfs:comment>
     <owl:AnnotationProperty rdf:about="https://CHeVIE.vn/ontologies/festivalPlace">
         <rdfs:range rdf:resource="https://CHeVIE.vn/ontologies/Statement"/>
         <rdfs:domain rdf:resource="https://CHeVIE.vn/ontologies/Festival"/>
+		<rdfs:label xml:lang="en">Festival Place</rdfs:label>
+    <rdfs:label xml:lang="vi">Địa điểm lễ hội</rdfs:label>
+    <rdfs:comment xml:lang="en">Indicates the location where a festival takes place.</rdfs:comment>
+    <rdfs:comment xml:lang="vi">Chỉ ra địa điểm nơi một lễ hội diễn ra.</rdfs:comment>
     </owl:AnnotationProperty>
     
 
@@ -392,6 +488,10 @@ above the local reference ellipsoid).</rdfs:comment>
     <owl:AnnotationProperty rdf:about="https://CHeVIE.vn/ontologies/festivalTime">
         <rdfs:range rdf:resource="https://CHeVIE.vn/ontologies/Statement"/>
         <rdfs:domain rdf:resource="https://CHeVIE.vn/ontologies/Festival"/>
+		<rdfs:label xml:lang="en">Festival Time</rdfs:label>
+    <rdfs:label xml:lang="vi">Thời gian lễ hội</rdfs:label>
+    <rdfs:comment xml:lang="en">Indicates the time when a festival occurs.</rdfs:comment>
+    <rdfs:comment xml:lang="vi">Chỉ ra thời gian mà một lễ hội diễn ra.</rdfs:comment>
     </owl:AnnotationProperty>
     
 
@@ -401,6 +501,10 @@ above the local reference ellipsoid).</rdfs:comment>
     <owl:AnnotationProperty rdf:about="https://CHeVIE.vn/ontologies/formedIn">
         <rdfs:range rdf:resource="https://CHeVIE.vn/ontologies/Statement"/>
         <rdfs:domain rdf:resource="https://CHeVIE.vn/ontologies/Country"/>
+		<rdfs:label xml:lang="en">Formed In</rdfs:label>
+    <rdfs:label xml:lang="vi">Hình thành tại</rdfs:label>
+    <rdfs:comment xml:lang="en">Indicates the time or place a country was formed.</rdfs:comment>
+    <rdfs:comment xml:lang="vi">Chỉ ra thời gian hoặc địa điểm mà một quốc gia hình thành.</rdfs:comment>
     </owl:AnnotationProperty>
     
 
@@ -410,6 +514,10 @@ above the local reference ellipsoid).</rdfs:comment>
     <owl:AnnotationProperty rdf:about="https://CHeVIE.vn/ontologies/founderOfDynasty">
         <rdfs:range rdf:resource="https://CHeVIE.vn/ontologies/Statement"/>
         <rdfs:domain rdf:resource="https://CHeVIE.vn/ontologies/Person"/>
+		<rdfs:label xml:lang="en">Founder of Dynasty</rdfs:label>
+    <rdfs:label xml:lang="vi">Người sáng lập triều đại</rdfs:label>
+    <rdfs:comment xml:lang="en">Represents the person who founded a dynasty.</rdfs:comment>
+    <rdfs:comment xml:lang="vi">Đại diện cho người đã sáng lập một triều đại.</rdfs:comment>
     </owl:AnnotationProperty>
     
 
@@ -419,6 +527,10 @@ above the local reference ellipsoid).</rdfs:comment>
     <owl:AnnotationProperty rdf:about="https://CHeVIE.vn/ontologies/getAcademicDegreeIn">
         <rdfs:range rdf:resource="https://CHeVIE.vn/ontologies/Statement"/>
         <rdfs:domain rdf:resource="https://CHeVIE.vn/ontologies/AcademicDegree"/>
+		<rdfs:label xml:lang="en">Get Academic Degree In</rdfs:label>
+    <rdfs:label xml:lang="vi">Nhận bằng học thuật trong</rdfs:label>
+    <rdfs:comment xml:lang="en">Indicates the field in which an academic degree is obtained.</rdfs:comment>
+    <rdfs:comment xml:lang="vi">Chỉ ra lĩnh vực mà một bằng cấp học thuật được nhận.</rdfs:comment>
     </owl:AnnotationProperty>
     
 
@@ -428,6 +540,10 @@ above the local reference ellipsoid).</rdfs:comment>
     <owl:AnnotationProperty rdf:about="https://CHeVIE.vn/ontologies/hasAdministrativeDivision">
         <rdfs:range rdf:resource="https://CHeVIE.vn/ontologies/Statement"/>
         <rdfs:domain rdf:resource="https://CHeVIE.vn/ontologies/Country"/>
+		<rdfs:label xml:lang="en">Has Administrative Division</rdfs:label>
+    <rdfs:label xml:lang="vi">Có phân chia hành chính</rdfs:label>
+    <rdfs:comment xml:lang="en">Indicates the administrative divisions within a country.</rdfs:comment>
+    <rdfs:comment xml:lang="vi">Chỉ ra các phân chia hành chính trong một quốc gia.</rdfs:comment>
     </owl:AnnotationProperty>
     
 
@@ -437,6 +553,10 @@ above the local reference ellipsoid).</rdfs:comment>
     <owl:AnnotationProperty rdf:about="https://CHeVIE.vn/ontologies/hasFestival">
         <rdfs:range rdf:resource="https://CHeVIE.vn/ontologies/Statement"/>
         <rdfs:domain rdf:resource="https://CHeVIE.vn/ontologies/Site"/>
+		<rdfs:label xml:lang="en">Has Festival</rdfs:label>
+    <rdfs:label xml:lang="vi">Có lễ hội</rdfs:label>
+    <rdfs:comment xml:lang="en">Indicates that a festival is held at a site.</rdfs:comment>
+    <rdfs:comment xml:lang="vi">Chỉ ra rằng một lễ hội được tổ chức tại một địa điểm.</rdfs:comment>
     </owl:AnnotationProperty>
     
 
@@ -446,6 +566,10 @@ above the local reference ellipsoid).</rdfs:comment>
     <owl:AnnotationProperty rdf:about="https://CHeVIE.vn/ontologies/holdingInterval">
         <rdfs:range rdf:resource="https://CHeVIE.vn/ontologies/Statement"/>
         <rdfs:domain rdf:resource="https://CHeVIE.vn/ontologies/PositionTitle"/>
+		<rdfs:label xml:lang="en">Holding Interval</rdfs:label>
+    <rdfs:label xml:lang="vi">Khoảng thời gian giữ chức vụ</rdfs:label>
+    <rdfs:comment xml:lang="en">Represents the time period during which a position was held.</rdfs:comment>
+    <rdfs:comment xml:lang="vi">Đại diện cho khoảng thời gian một chức vụ được giữ.</rdfs:comment>
     </owl:AnnotationProperty>
     
 
@@ -455,6 +579,10 @@ above the local reference ellipsoid).</rdfs:comment>
     <owl:AnnotationProperty rdf:about="https://CHeVIE.vn/ontologies/knownAsDivision">
         <rdfs:range rdf:resource="https://CHeVIE.vn/ontologies/Statement"/>
         <rdfs:domain rdf:resource="https://CHeVIE.vn/ontologies/AdministrativeDivision"/>
+		<rdfs:label xml:lang="en">Known As Division</rdfs:label>
+    <rdfs:label xml:lang="vi">Được biết đến như là phân khu</rdfs:label>
+    <rdfs:comment xml:lang="en">Indicates the alternative name or designation of an administrative division.</rdfs:comment>
+    <rdfs:comment xml:lang="vi">Chỉ ra tên hoặc sự chỉ định khác của một phân khu hành chính.</rdfs:comment>
     </owl:AnnotationProperty>
     
 
@@ -464,6 +592,10 @@ above the local reference ellipsoid).</rdfs:comment>
     <owl:AnnotationProperty rdf:about="https://CHeVIE.vn/ontologies/liveIn">
         <rdfs:range rdf:resource="https://CHeVIE.vn/ontologies/Statement"/>
         <rdfs:domain rdf:resource="https://CHeVIE.vn/ontologies/Person"/>
+		<rdfs:label xml:lang="en">Live In</rdfs:label>
+    <rdfs:label xml:lang="vi">Sống tại</rdfs:label>
+    <rdfs:comment xml:lang="en">Indicates the place where a person resides.</rdfs:comment>
+    <rdfs:comment xml:lang="vi">Chỉ ra nơi một người cư trú.</rdfs:comment>
     </owl:AnnotationProperty>
     
 
@@ -473,6 +605,10 @@ above the local reference ellipsoid).</rdfs:comment>
     <owl:AnnotationProperty rdf:about="https://CHeVIE.vn/ontologies/marriedTo">
         <rdfs:range rdf:resource="https://CHeVIE.vn/ontologies/Statement"/>
         <rdfs:domain rdf:resource="https://CHeVIE.vn/ontologies/Person"/>
+		<rdfs:label xml:lang="en">Married To</rdfs:label>
+    <rdfs:label xml:lang="vi">Kết hôn với</rdfs:label>
+    <rdfs:comment xml:lang="en">Represents the marital relationship of a person.</rdfs:comment>
+    <rdfs:comment xml:lang="vi">Đại diện cho mối quan hệ hôn nhân của một người.</rdfs:comment>
     </owl:AnnotationProperty>
     
 
@@ -482,6 +618,10 @@ above the local reference ellipsoid).</rdfs:comment>
     <owl:AnnotationProperty rdf:about="https://CHeVIE.vn/ontologies/mother">
         <rdfs:range rdf:resource="https://CHeVIE.vn/ontologies/Statement"/>
         <rdfs:domain rdf:resource="https://CHeVIE.vn/ontologies/Person"/>
+		<rdfs:label xml:lang="en">Mother</rdfs:label>
+    <rdfs:label xml:lang="vi">Mẹ</rdfs:label>
+    <rdfs:comment xml:lang="en">Represents the mother of a person.</rdfs:comment>
+    <rdfs:comment xml:lang="vi">Đại diện cho người mẹ của một người.</rdfs:comment>
     </owl:AnnotationProperty>
     
 
@@ -491,6 +631,10 @@ above the local reference ellipsoid).</rdfs:comment>
     <owl:AnnotationProperty rdf:about="https://CHeVIE.vn/ontologies/narrowerDivision">
         <rdfs:range rdf:resource="https://CHeVIE.vn/ontologies/Statement"/>
         <rdfs:domain rdf:resource="https://CHeVIE.vn/ontologies/AdministrativeDivision"/>
+		<rdfs:label xml:lang="en">Narrower Division</rdfs:label>
+    <rdfs:label xml:lang="vi">Phân chia hẹp hơn</rdfs:label>
+    <rdfs:comment xml:lang="en">Indicates a more specific administrative division within a broader one.</rdfs:comment>
+    <rdfs:comment xml:lang="vi">Chỉ ra một phân khu hành chính cụ thể hơn trong một phân khu rộng hơn.</rdfs:comment>
     </owl:AnnotationProperty>
     
 
@@ -501,6 +645,10 @@ above the local reference ellipsoid).</rdfs:comment>
         <rdfs:seeAlso>https://www.w3.org/TR/skos-reference/#narrower</rdfs:seeAlso>
         <rdfs:range rdf:resource="https://CHeVIE.vn/ontologies/Statement"/>
         <rdfs:domain rdf:resource="https://CHeVIE.vn/ontologies/Period"/>
+		<rdfs:label xml:lang="en">Narrower Period</rdfs:label>
+    <rdfs:label xml:lang="vi">Thời kỳ hẹp hơn</rdfs:label>
+    <rdfs:comment xml:lang="en">Indicates a more specific time period within a broader one.</rdfs:comment>
+    <rdfs:comment xml:lang="vi">Chỉ ra một thời kỳ cụ thể hơn trong một thời kỳ rộng hơn.</rdfs:comment>
     </owl:AnnotationProperty>
     
 
@@ -510,6 +658,10 @@ above the local reference ellipsoid).</rdfs:comment>
     <owl:AnnotationProperty rdf:about="https://CHeVIE.vn/ontologies/parent">
         <rdfs:range rdf:resource="https://CHeVIE.vn/ontologies/Statement"/>
         <rdfs:domain rdf:resource="https://CHeVIE.vn/ontologies/Person"/>
+		<rdfs:label xml:lang="en">Parent</rdfs:label>
+    <rdfs:label xml:lang="vi">Cha mẹ</rdfs:label>
+    <rdfs:comment xml:lang="en">Represents the parent of a person.</rdfs:comment>
+    <rdfs:comment xml:lang="vi">Đại diện cho cha mẹ của một người.</rdfs:comment>
     </owl:AnnotationProperty>
     
 
@@ -519,13 +671,22 @@ above the local reference ellipsoid).</rdfs:comment>
     <owl:AnnotationProperty rdf:about="https://CHeVIE.vn/ontologies/positionTitle">
         <rdfs:range rdf:resource="https://CHeVIE.vn/ontologies/Statement"/>
         <rdfs:domain rdf:resource="https://CHeVIE.vn/ontologies/Person"/>
+		<rdfs:label xml:lang="en">Position Title</rdfs:label>
+    <rdfs:label xml:lang="vi">Chức danh</rdfs:label>
+    <rdfs:comment xml:lang="en">Indicates the title of a position held by a person.</rdfs:comment>
+    <rdfs:comment xml:lang="vi">Chỉ ra chức danh của một vị trí do một người giữ.</rdfs:comment>
     </owl:AnnotationProperty>
     
 
 
     <!-- https://CHeVIE.vn/ontologies/predecessor -->
 
-    <owl:AnnotationProperty rdf:about="https://CHeVIE.vn/ontologies/predecessor"/>
+    <owl:AnnotationProperty rdf:about="https://CHeVIE.vn/ontologies/predecessor">
+		<rdfs:label xml:lang="en">Predecessor</rdfs:label>
+    <rdfs:label xml:lang="vi">Người tiền nhiệm</rdfs:label>
+    <rdfs:comment xml:lang="en">Represents the predecessor in a position or title.</rdfs:comment>
+    <rdfs:comment xml:lang="vi">Đại diện cho người tiền nhiệm trong một vị trí hoặc chức danh.</rdfs:comment>
+	</owl:AnnotationProperty>
     
 
 
@@ -534,6 +695,10 @@ above the local reference ellipsoid).</rdfs:comment>
     <owl:AnnotationProperty rdf:about="https://CHeVIE.vn/ontologies/relatedToEthnic">
         <rdfs:range rdf:resource="https://CHeVIE.vn/ontologies/Statement"/>
         <rdfs:domain rdf:resource="https://CHeVIE.vn/ontologies/Festival"/>
+		<rdfs:label xml:lang="en">Related to Ethnic</rdfs:label>
+    <rdfs:label xml:lang="vi">Liên quan đến dân tộc</rdfs:label>
+    <rdfs:comment xml:lang="en">Indicates the ethnic group related to a festival.</rdfs:comment>
+    <rdfs:comment xml:lang="vi">Chỉ ra nhóm dân tộc liên quan đến một lễ hội.</rdfs:comment>
     </owl:AnnotationProperty>
     
 
@@ -543,6 +708,10 @@ above the local reference ellipsoid).</rdfs:comment>
     <owl:AnnotationProperty rdf:about="https://CHeVIE.vn/ontologies/relatedToEthnicGroup">
         <rdfs:range rdf:resource="https://CHeVIE.vn/ontologies/Statement"/>
         <rdfs:domain rdf:resource="https://CHeVIE.vn/ontologies/Festival"/>
+		<rdfs:label xml:lang="en">Related to Ethnic Group</rdfs:label>
+    <rdfs:label xml:lang="vi">Liên quan đến nhóm dân tộc</rdfs:label>
+    <rdfs:comment xml:lang="en">Indicates the specific ethnic group related to a festival.</rdfs:comment>
+    <rdfs:comment xml:lang="vi">Chỉ ra nhóm dân tộc cụ thể liên quan đến một lễ hội.</rdfs:comment>
     </owl:AnnotationProperty>
     
 
@@ -552,6 +721,10 @@ above the local reference ellipsoid).</rdfs:comment>
     <owl:AnnotationProperty rdf:about="https://CHeVIE.vn/ontologies/relatedToReligion">
         <rdfs:range rdf:resource="https://CHeVIE.vn/ontologies/Statement"/>
         <rdfs:domain rdf:resource="https://CHeVIE.vn/ontologies/Festival"/>
+		<rdfs:label xml:lang="en">Related to Religion</rdfs:label>
+    <rdfs:label xml:lang="vi">Liên quan đến tôn giáo</rdfs:label>
+    <rdfs:comment xml:lang="en">Indicates the religious aspect related to a festival.</rdfs:comment>
+    <rdfs:comment xml:lang="vi">Chỉ ra khía cạnh tôn giáo liên quan đến một lễ hội.</rdfs:comment>
     </owl:AnnotationProperty>
     
 
@@ -561,6 +734,10 @@ above the local reference ellipsoid).</rdfs:comment>
     <owl:AnnotationProperty rdf:about="https://CHeVIE.vn/ontologies/religion">
         <rdfs:range rdf:resource="https://CHeVIE.vn/ontologies/Statement"/>
         <rdfs:domain rdf:resource="https://CHeVIE.vn/ontologies/Person"/>
+		<rdfs:label xml:lang="en">Religion</rdfs:label>
+    <rdfs:label xml:lang="vi">Tôn giáo</rdfs:label>
+    <rdfs:comment xml:lang="en">Represents the religious affiliation of a person.</rdfs:comment>
+    <rdfs:comment xml:lang="vi">Đại diện cho liên kết tôn giáo của một người.</rdfs:comment>
     </owl:AnnotationProperty>
     
 
@@ -570,6 +747,10 @@ above the local reference ellipsoid).</rdfs:comment>
     <owl:AnnotationProperty rdf:about="https://CHeVIE.vn/ontologies/siblings">
         <rdfs:range rdf:resource="https://CHeVIE.vn/ontologies/Statement"/>
         <rdfs:domain rdf:resource="https://CHeVIE.vn/ontologies/Person"/>
+		<rdfs:label xml:lang="en">Siblings</rdfs:label>
+    <rdfs:label xml:lang="vi">Anh chị em</rdfs:label>
+    <rdfs:comment xml:lang="en">Represents the siblings of a person.</rdfs:comment>
+    <rdfs:comment xml:lang="vi">Đại diện cho anh chị em của một người.</rdfs:comment>
     </owl:AnnotationProperty>
     
 
@@ -579,6 +760,10 @@ above the local reference ellipsoid).</rdfs:comment>
     <owl:AnnotationProperty rdf:about="https://CHeVIE.vn/ontologies/similarAcademicDegree">
         <rdfs:range rdf:resource="https://CHeVIE.vn/ontologies/Statement"/>
         <rdfs:domain rdf:resource="https://CHeVIE.vn/ontologies/AcademicDegree"/>
+		<rdfs:label xml:lang="en">Similar Academic Degree</rdfs:label>
+    <rdfs:label xml:lang="vi">Bằng học thuật tương tự</rdfs:label>
+    <rdfs:comment xml:lang="en">Indicates an academic degree similar to another.</rdfs:comment>
+    <rdfs:comment xml:lang="vi">Chỉ ra một bằng học thuật tương tự với bằng khác.</rdfs:comment>
     </owl:AnnotationProperty>
     
 
@@ -588,6 +773,10 @@ above the local reference ellipsoid).</rdfs:comment>
     <owl:AnnotationProperty rdf:about="https://CHeVIE.vn/ontologies/similarPositionTitle">
         <rdfs:range rdf:resource="https://CHeVIE.vn/ontologies/Statement"/>
         <rdfs:domain rdf:resource="https://CHeVIE.vn/ontologies/PositionTitle"/>
+		<rdfs:label xml:lang="en">Similar Position Title</rdfs:label>
+    <rdfs:label xml:lang="vi">Chức danh tương tự</rdfs:label>
+    <rdfs:comment xml:lang="en">Indicates a position title similar to another.</rdfs:comment>
+    <rdfs:comment xml:lang="vi">Chỉ ra một chức danh tương tự với chức danh khác.</rdfs:comment>
     </owl:AnnotationProperty>
     
 
@@ -597,6 +786,10 @@ above the local reference ellipsoid).</rdfs:comment>
     <owl:AnnotationProperty rdf:about="https://CHeVIE.vn/ontologies/sister">
         <rdfs:range rdf:resource="https://CHeVIE.vn/ontologies/Statement"/>
         <rdfs:domain rdf:resource="https://CHeVIE.vn/ontologies/Person"/>
+		<rdfs:label xml:lang="en">Sister</rdfs:label>
+    <rdfs:label xml:lang="vi">Chị/em gái</rdfs:label>
+    <rdfs:comment xml:lang="en">Represents the sister of a person.</rdfs:comment>
+    <rdfs:comment xml:lang="vi">Đại diện cho chị/em gái của một người.</rdfs:comment>
     </owl:AnnotationProperty>
     
 
@@ -606,6 +799,10 @@ above the local reference ellipsoid).</rdfs:comment>
     <owl:AnnotationProperty rdf:about="https://CHeVIE.vn/ontologies/sisterInLaw">
         <rdfs:range rdf:resource="https://CHeVIE.vn/ontologies/Statement"/>
         <rdfs:domain rdf:resource="https://CHeVIE.vn/ontologies/Person"/>
+		<rdfs:label xml:lang="en">Sister-in-law</rdfs:label>
+    <rdfs:label xml:lang="vi">Chị/em dâu</rdfs:label>
+    <rdfs:comment xml:lang="en">Represents the sister-in-law of a person.</rdfs:comment>
+    <rdfs:comment xml:lang="vi">Đại diện cho chị/em dâu của một người.</rdfs:comment>
     </owl:AnnotationProperty>
     
 
@@ -615,6 +812,10 @@ above the local reference ellipsoid).</rdfs:comment>
     <owl:AnnotationProperty rdf:about="https://CHeVIE.vn/ontologies/siteCommemorateEvent">
         <rdfs:range rdf:resource="https://CHeVIE.vn/ontologies/Statement"/>
         <rdfs:domain rdf:resource="https://CHeVIE.vn/ontologies/Site"/>
+		<rdfs:label xml:lang="en">Site Commemorate Event</rdfs:label>
+    <rdfs:label xml:lang="vi">Địa điểm tưởng niệm sự kiện</rdfs:label>
+    <rdfs:comment xml:lang="en">Indicates the event commemorated by a site.</rdfs:comment>
+    <rdfs:comment xml:lang="vi">Chỉ ra sự kiện mà một địa điểm tưởng niệm.</rdfs:comment>
     </owl:AnnotationProperty>
     
 
@@ -624,6 +825,10 @@ above the local reference ellipsoid).</rdfs:comment>
     <owl:AnnotationProperty rdf:about="https://CHeVIE.vn/ontologies/siteLevel">
         <rdfs:range rdf:resource="https://CHeVIE.vn/ontologies/Statement"/>
         <rdfs:domain rdf:resource="https://CHeVIE.vn/ontologies/Site"/>
+		<rdfs:label xml:lang="en">Site Level</rdfs:label>
+    <rdfs:label xml:lang="vi">Cấp độ địa điểm</rdfs:label>
+    <rdfs:comment xml:lang="en">Indicates the significance level of a site.</rdfs:comment>
+    <rdfs:comment xml:lang="vi">Chỉ ra mức độ quan trọng của một địa điểm.</rdfs:comment>
     </owl:AnnotationProperty>
     
 
@@ -633,6 +838,10 @@ above the local reference ellipsoid).</rdfs:comment>
     <owl:AnnotationProperty rdf:about="https://CHeVIE.vn/ontologies/sitePlace">
         <rdfs:range rdf:resource="https://CHeVIE.vn/ontologies/Statement"/>
         <rdfs:domain rdf:resource="https://CHeVIE.vn/ontologies/Site"/>
+		<rdfs:label xml:lang="en">Site Place</rdfs:label>
+    <rdfs:label xml:lang="vi">Địa điểm của địa điểm</rdfs:label>
+    <rdfs:comment xml:lang="en">Indicates the location associated with a site.</rdfs:comment>
+    <rdfs:comment xml:lang="vi">Chỉ ra vị trí liên quan đến một địa điểm.</rdfs:comment>
     </owl:AnnotationProperty>
     
 
@@ -642,6 +851,10 @@ above the local reference ellipsoid).</rdfs:comment>
     <owl:AnnotationProperty rdf:about="https://CHeVIE.vn/ontologies/son">
         <rdfs:range rdf:resource="https://CHeVIE.vn/ontologies/Statement"/>
         <rdfs:domain rdf:resource="https://CHeVIE.vn/ontologies/Person"/>
+		<rdfs:label xml:lang="en">Son</rdfs:label>
+    <rdfs:label xml:lang="vi">Con trai</rdfs:label>
+    <rdfs:comment xml:lang="en">Represents the son of a person.</rdfs:comment>
+    <rdfs:comment xml:lang="vi">Đại diện cho con trai của một người.</rdfs:comment>
     </owl:AnnotationProperty>
     
 
@@ -2662,6 +2875,10 @@ sameThing(P1, P2) :- type(P1, Point), type(P2, Point), spaciallyIntersects(P1, P
 
     <owl:NamedIndividual rdf:about="https://CHeVIE.vn/ontologies/Academics">
         <rdf:type rdf:resource="https://CHeVIE.vn/ontologies/NaturalTalent"/>
+		<rdfs:label xml:lang="en">Academics</rdfs:label>
+    <rdfs:label xml:lang="vi">Học thuật</rdfs:label>
+    <rdfs:comment xml:lang="en">Represents academic talents and skills.</rdfs:comment>
+    <rdfs:comment xml:lang="vi">Đại diện cho tài năng và kỹ năng học thuật.</rdfs:comment>
     </owl:NamedIndividual>
     
 
@@ -2670,6 +2887,10 @@ sameThing(P1, P2) :- type(P1, Point), type(P2, Point), spaciallyIntersects(P1, P
 
     <owl:NamedIndividual rdf:about="https://CHeVIE.vn/ontologies/Archery">
         <rdf:type rdf:resource="https://CHeVIE.vn/ontologies/NaturalTalent"/>
+		<rdfs:label xml:lang="en">Archery</rdfs:label>
+    <rdfs:label xml:lang="vi">Bắn cung</rdfs:label>
+    <rdfs:comment xml:lang="en">Represents archery skills and abilities.</rdfs:comment>
+    <rdfs:comment xml:lang="vi">Đại diện cho kỹ năng và khả năng bắn cung.</rdfs:comment>
     </owl:NamedIndividual>
     
 
@@ -2678,6 +2899,10 @@ sameThing(P1, P2) :- type(P1, Point), type(P2, Point), spaciallyIntersects(P1, P
 
     <owl:NamedIndividual rdf:about="https://CHeVIE.vn/ontologies/Art">
         <rdf:type rdf:resource="https://CHeVIE.vn/ontologies/NaturalTalent"/>
+		<rdfs:label xml:lang="en">Art</rdfs:label>
+    <rdfs:label xml:lang="vi">Nghệ thuật</rdfs:label>
+    <rdfs:comment xml:lang="en">Represents artistic talents and creativity.</rdfs:comment>
+    <rdfs:comment xml:lang="vi">Đại diện cho tài năng và sự sáng tạo nghệ thuật.</rdfs:comment>
     </owl:NamedIndividual>
     
 
@@ -2686,6 +2911,10 @@ sameThing(P1, P2) :- type(P1, Point), type(P2, Point), spaciallyIntersects(P1, P
 
     <owl:NamedIndividual rdf:about="https://CHeVIE.vn/ontologies/Articulate">
         <rdf:type rdf:resource="https://CHeVIE.vn/ontologies/NaturalTalent"/>
+		 <rdfs:label xml:lang="en">Articulate</rdfs:label>
+    <rdfs:label xml:lang="vi">Lưu loát</rdfs:label>
+    <rdfs:comment xml:lang="en">Represents the ability to express ideas clearly and effectively.</rdfs:comment>
+    <rdfs:comment xml:lang="vi">Đại diện cho khả năng diễn đạt ý tưởng rõ ràng và hiệu quả.</rdfs:comment>
     </owl:NamedIndividual>
     
 
@@ -2718,6 +2947,10 @@ sameThing(P1, P2) :- type(P1, Point), type(P2, Point), spaciallyIntersects(P1, P
 
     <owl:NamedIndividual rdf:about="https://CHeVIE.vn/ontologies/Catholicism">
         <rdf:type rdf:resource="https://CHeVIE.vn/ontologies/Religion"/>
+		<rdfs:label xml:lang="en">Catholicism</rdfs:label>
+    <rdfs:label xml:lang="vi">Công giáo</rdfs:label>
+    <rdfs:comment xml:lang="en">Represents the Catholic faith and practices.</rdfs:comment>
+    <rdfs:comment xml:lang="vi">Đại diện cho đức tin và nghi lễ Công giáo.</rdfs:comment>
     </owl:NamedIndividual>
     
 
@@ -2726,6 +2959,10 @@ sameThing(P1, P2) :- type(P1, Point), type(P2, Point), spaciallyIntersects(P1, P
 
     <owl:NamedIndividual rdf:about="https://CHeVIE.vn/ontologies/Christianity">
         <rdf:type rdf:resource="https://CHeVIE.vn/ontologies/Religion"/>
+		<rdfs:label xml:lang="en">Christianity</rdfs:label>
+    <rdfs:label xml:lang="vi">Cơ đốc giáo</rdfs:label>
+    <rdfs:comment xml:lang="en">Represents the Christian faith and practices.</rdfs:comment>
+    <rdfs:comment xml:lang="vi">Đại diện cho đức tin và nghi lễ Cơ đốc giáo.</rdfs:comment>
     </owl:NamedIndividual>
     
 
@@ -2734,6 +2971,10 @@ sameThing(P1, P2) :- type(P1, Point), type(P2, Point), spaciallyIntersects(P1, P
 
     <owl:NamedIndividual rdf:about="https://CHeVIE.vn/ontologies/Communication">
         <rdf:type rdf:resource="https://CHeVIE.vn/ontologies/NaturalTalent"/>
+		<rdfs:label xml:lang="en">Communication</rdfs:label>
+    <rdfs:label xml:lang="vi">Giao tiếp</rdfs:label>
+    <rdfs:comment xml:lang="en">Represents skills in effectively exchanging information.</rdfs:comment>
+    <rdfs:comment xml:lang="vi">Đại diện cho kỹ năng trao đổi thông tin hiệu quả.</rdfs:comment>
     </owl:NamedIndividual>
     
 
@@ -2742,6 +2983,10 @@ sameThing(P1, P2) :- type(P1, Point), type(P2, Point), spaciallyIntersects(P1, P
 
     <owl:NamedIndividual rdf:about="https://CHeVIE.vn/ontologies/Financial">
         <rdf:type rdf:resource="https://CHeVIE.vn/ontologies/NaturalTalent"/>
+		<rdfs:label xml:lang="en">Financial</rdfs:label>
+    <rdfs:label xml:lang="vi">Tài chính</rdfs:label>
+    <rdfs:comment xml:lang="en">Represents skills in financial management and planning.</rdfs:comment>
+    <rdfs:comment xml:lang="vi">Đại diện cho kỹ năng quản lý và lập kế hoạch tài chính.</rdfs:comment>
     </owl:NamedIndividual>
     
 
@@ -2750,6 +2995,10 @@ sameThing(P1, P2) :- type(P1, Point), type(P2, Point), spaciallyIntersects(P1, P
 
     <owl:NamedIndividual rdf:about="https://CHeVIE.vn/ontologies/FolkReligion">
         <rdf:type rdf:resource="https://CHeVIE.vn/ontologies/Religion"/>
+		<rdfs:label xml:lang="en">Folk Religion</rdfs:label>
+    <rdfs:label xml:lang="vi">Tín ngưỡng dân gian</rdfs:label>
+    <rdfs:comment xml:lang="en">Represents traditional folk beliefs and practices.</rdfs:comment>
+    <rdfs:comment xml:lang="vi">Đại diện cho tín ngưỡng và thực hành dân gian truyền thống.</rdfs:comment>
     </owl:NamedIndividual>
     
 
@@ -2758,6 +3007,10 @@ sameThing(P1, P2) :- type(P1, Point), type(P2, Point), spaciallyIntersects(P1, P
 
     <owl:NamedIndividual rdf:about="https://CHeVIE.vn/ontologies/GregorianCalendar">
         <rdf:type rdf:resource="http://www.w3.org/2006/time#TRS"/>
+		 <rdfs:label xml:lang="en">Gregorian Calendar</rdfs:label>
+    <rdfs:label xml:lang="vi">Lịch Gregorian</rdfs:label>
+    <rdfs:comment xml:lang="en">Represents the internationally used Gregorian calendar system.</rdfs:comment>
+    <rdfs:comment xml:lang="vi">Đại diện cho hệ thống lịch Gregorian được sử dụng quốc tế.</rdfs:comment>
     </owl:NamedIndividual>
     
 
@@ -2766,6 +3019,10 @@ sameThing(P1, P2) :- type(P1, Point), type(P2, Point), spaciallyIntersects(P1, P
 
     <owl:NamedIndividual rdf:about="https://CHeVIE.vn/ontologies/Hoahaoism">
         <rdf:type rdf:resource="https://CHeVIE.vn/ontologies/Religion"/>
+		<rdfs:label xml:lang="en">Hoahaoism</rdfs:label>
+    <rdfs:label xml:lang="vi">Hòa Hảo</rdfs:label>
+    <rdfs:comment xml:lang="en">Represents the Hoa Hao Buddhist faith and practices.</rdfs:comment>
+    <rdfs:comment xml:lang="vi">Đại diện cho tín ngưỡng và thực hành Phật giáo Hòa Hảo.</rdfs:comment>
     </owl:NamedIndividual>
     
 
@@ -2774,6 +3031,10 @@ sameThing(P1, P2) :- type(P1, Point), type(P2, Point), spaciallyIntersects(P1, P
 
     <owl:NamedIndividual rdf:about="https://CHeVIE.vn/ontologies/Horsing">
         <rdf:type rdf:resource="https://CHeVIE.vn/ontologies/NaturalTalent"/>
+		<rdfs:label xml:lang="en">Horsing</rdfs:label>
+    <rdfs:label xml:lang="vi">Cưỡi ngựa</rdfs:label>
+    <rdfs:comment xml:lang="en">Represents skills in horseback riding and handling.</rdfs:comment>
+    <rdfs:comment xml:lang="vi">Đại diện cho kỹ năng cưỡi và quản lý ngựa.</rdfs:comment>
     </owl:NamedIndividual>
     
 
@@ -2782,6 +3043,10 @@ sameThing(P1, P2) :- type(P1, Point), type(P2, Point), spaciallyIntersects(P1, P
 
     <owl:NamedIndividual rdf:about="https://CHeVIE.vn/ontologies/Humor">
         <rdf:type rdf:resource="https://CHeVIE.vn/ontologies/NaturalTalent"/>
+		<rdfs:label xml:lang="en">Humor</rdfs:label>
+    <rdfs:label xml:lang="vi">Hài hước</rdfs:label>
+    <rdfs:comment xml:lang="en">Represents the ability to perceive, enjoy, or express humor.</rdfs:comment>
+    <rdfs:comment xml:lang="vi">Đại diện cho khả năng cảm nhận, thưởng thức hoặc thể hiện sự hài hước.</rdfs:comment>
     </owl:NamedIndividual>
     
 
@@ -2790,6 +3055,10 @@ sameThing(P1, P2) :- type(P1, Point), type(P2, Point), spaciallyIntersects(P1, P
 
     <owl:NamedIndividual rdf:about="https://CHeVIE.vn/ontologies/Leadership">
         <rdf:type rdf:resource="https://CHeVIE.vn/ontologies/NaturalTalent"/>
+		 <rdfs:label xml:lang="en">Leadership</rdfs:label>
+    <rdfs:label xml:lang="vi">Lãnh đạo</rdfs:label>
+    <rdfs:comment xml:lang="en">Represents the ability to lead, guide, and influence others.</rdfs:comment>
+    <rdfs:comment xml:lang="vi">Đại diện cho khả năng lãnh đạo, hướng dẫn và ảnh hưởng đến người khác.</rdfs:comment>
     </owl:NamedIndividual>
     
 
@@ -2806,6 +3075,10 @@ sameThing(P1, P2) :- type(P1, Point), type(P2, Point), spaciallyIntersects(P1, P
 
     <owl:NamedIndividual rdf:about="https://CHeVIE.vn/ontologies/Literature">
         <rdf:type rdf:resource="https://CHeVIE.vn/ontologies/NaturalTalent"/>
+		<rdfs:label xml:lang="en">Literature</rdfs:label>
+    <rdfs:label xml:lang="vi">Văn học</rdfs:label>
+    <rdfs:comment xml:lang="en">Represents skills and talents in literary analysis and creation.</rdfs:comment>
+    <rdfs:comment xml:lang="vi">Đại diện cho kỹ năng và tài năng trong phân tích và sáng tạo văn học.</rdfs:comment>
     </owl:NamedIndividual>
     
 
@@ -2814,6 +3087,10 @@ sameThing(P1, P2) :- type(P1, Point), type(P2, Point), spaciallyIntersects(P1, P
 
     <owl:NamedIndividual rdf:about="https://CHeVIE.vn/ontologies/Logistics">
         <rdf:type rdf:resource="https://CHeVIE.vn/ontologies/NaturalTalent"/>
+		<rdfs:label xml:lang="en">Logistics</rdfs:label>
+    <rdfs:label xml:lang="vi">Hậu cần</rdfs:label>
+    <rdfs:comment xml:lang="en">Represents skills in managing the flow of goods and information.</rdfs:comment>
+    <rdfs:comment xml:lang="vi">Đại diện cho kỹ năng quản lý dòng chảy của hàng hóa và thông tin.</rdfs:comment>
     </owl:NamedIndividual>
     
 
@@ -2822,6 +3099,10 @@ sameThing(P1, P2) :- type(P1, Point), type(P2, Point), spaciallyIntersects(P1, P
 
     <owl:NamedIndividual rdf:about="https://CHeVIE.vn/ontologies/LunarCalendar">
         <rdf:type rdf:resource="http://www.w3.org/2006/time#TRS"/>
+		<rdfs:label xml:lang="en">Lunar Calendar</rdfs:label>
+    <rdfs:label xml:lang="vi">Lịch âm</rdfs:label>
+    <rdfs:comment xml:lang="en">Represents the lunar calendar system used in many cultures.</rdfs:comment>
+    <rdfs:comment xml:lang="vi">Đại diện cho hệ thống lịch âm được sử dụng trong nhiều nền văn hóa.</rdfs:comment>
         <rdfs:seeAlso>https://dbpedia.org/page/Lunar_calendar</rdfs:seeAlso>
     </owl:NamedIndividual>
     
@@ -2831,6 +3112,10 @@ sameThing(P1, P2) :- type(P1, Point), type(P2, Point), spaciallyIntersects(P1, P
 
     <owl:NamedIndividual rdf:about="https://CHeVIE.vn/ontologies/Math">
         <rdf:type rdf:resource="https://CHeVIE.vn/ontologies/NaturalTalent"/>
+		<rdfs:label xml:lang="en">Math</rdfs:label>
+    <rdfs:label xml:lang="vi">Toán học</rdfs:label>
+    <rdfs:comment xml:lang="en">Represents skills and talents in mathematics and number theory.</rdfs:comment>
+    <rdfs:comment xml:lang="vi">Đại diện cho kỹ năng và tài năng trong toán học và lý thuyết số.</rdfs:comment>
     </owl:NamedIndividual>
     
 
@@ -2839,6 +3124,10 @@ sameThing(P1, P2) :- type(P1, Point), type(P2, Point), spaciallyIntersects(P1, P
 
     <owl:NamedIndividual rdf:about="https://CHeVIE.vn/ontologies/MilitaryManagement">
         <rdf:type rdf:resource="https://CHeVIE.vn/ontologies/NaturalTalent"/>
+		<rdfs:label xml:lang="en">Military Management</rdfs:label>
+    <rdfs:label xml:lang="vi">Quản lý quân sự</rdfs:label>
+    <rdfs:comment xml:lang="en">Represents skills in organizing and directing military operations.</rdfs:comment>
+    <rdfs:comment xml:lang="vi">Đại diện cho kỹ năng tổ chức và chỉ đạo các hoạt động quân sự.</rdfs:comment>
     </owl:NamedIndividual>
     
 
@@ -2847,6 +3136,10 @@ sameThing(P1, P2) :- type(P1, Point), type(P2, Point), spaciallyIntersects(P1, P
 
     <owl:NamedIndividual rdf:about="https://CHeVIE.vn/ontologies/Music">
         <rdf:type rdf:resource="https://CHeVIE.vn/ontologies/NaturalTalent"/>
+		<rdfs:label xml:lang="en">Music</rdfs:label>
+    <rdfs:label xml:lang="vi">Âm nhạc</rdfs:label>
+    <rdfs:comment xml:lang="en">Represents talents and skills in musical performance and composition.</rdfs:comment>
+    <rdfs:comment xml:lang="vi">Đại diện cho tài năng và kỹ năng trong biểu diễn và sáng tác âm nhạc.</rdfs:comment>
     </owl:NamedIndividual>
     
 
@@ -2856,6 +3149,9 @@ sameThing(P1, P2) :- type(P1, Point), type(P2, Point), spaciallyIntersects(P1, P
     <owl:NamedIndividual rdf:about="https://CHeVIE.vn/ontologies/NationalLevel">
         <rdf:type rdf:resource="https://CHeVIE.vn/ontologies/SiteLevel"/>
         <rdfs:label xml:lang="vi">Di tích quốc gia</rdfs:label>
+		<rdfs:label xml:lang="en">National Level</rdfs:label>
+    <rdfs:comment xml:lang="en">Represents sites of national heritage and significance.</rdfs:comment>
+    <rdfs:comment xml:lang="vi">Đại diện cho các di tích có ý nghĩa và di sản quốc gia.</rdfs:comment>
     </owl:NamedIndividual>
     
 
@@ -2864,6 +3160,10 @@ sameThing(P1, P2) :- type(P1, Point), type(P2, Point), spaciallyIntersects(P1, P
 
     <owl:NamedIndividual rdf:about="https://CHeVIE.vn/ontologies/Negotiating">
         <rdf:type rdf:resource="https://CHeVIE.vn/ontologies/NaturalTalent"/>
+		 <rdfs:label xml:lang="en">Negotiating</rdfs:label>
+    <rdfs:label xml:lang="vi">Đàm phán</rdfs:label>
+    <rdfs:comment xml:lang="en">Represents skills in negotiation and conflict resolution.</rdfs:comment>
+    <rdfs:comment xml:lang="vi">Đại diện cho kỹ năng đàm phán và giải quyết xung đột.</rdfs:comment>
     </owl:NamedIndividual>
     
 
@@ -2872,6 +3172,10 @@ sameThing(P1, P2) :- type(P1, Point), type(P2, Point), spaciallyIntersects(P1, P
 
     <owl:NamedIndividual rdf:about="https://CHeVIE.vn/ontologies/NormalLevel">
         <rdf:type rdf:resource="https://CHeVIE.vn/ontologies/SiteLevel"/>
+		<rdfs:label xml:lang="en">Normal Level</rdfs:label>
+    <rdfs:label xml:lang="vi">Mức độ bình thường</rdfs:label>
+    <rdfs:comment xml:lang="en">Represents sites of general interest and significance.</rdfs:comment>
+    <rdfs:comment xml:lang="vi">Đại diện cho những địa điểm có mối quan tâm và ý nghĩa chung.</rdfs:comment>
     </owl:NamedIndividual>
     
 
@@ -2880,6 +3184,10 @@ sameThing(P1, P2) :- type(P1, Point), type(P2, Point), spaciallyIntersects(P1, P
 
     <owl:NamedIndividual rdf:about="https://CHeVIE.vn/ontologies/OtherReligion">
         <rdf:type rdf:resource="https://CHeVIE.vn/ontologies/Religion"/>
+		<rdfs:label xml:lang="en">Other Religion</rdfs:label>
+    <rdfs:label xml:lang="vi">Tôn giáo khác</rdfs:label>
+    <rdfs:comment xml:lang="en">Represents other religious faiths and practices not categorized elsewhere.</rdfs:comment>
+    <rdfs:comment xml:lang="vi">Đại diện cho các tôn giáo và thực hành tôn giáo khác chưa được phân loại ở nơi khác.</rdfs:comment>
     </owl:NamedIndividual>
     
 
@@ -2888,6 +3196,10 @@ sameThing(P1, P2) :- type(P1, Point), type(P2, Point), spaciallyIntersects(P1, P
 
     <owl:NamedIndividual rdf:about="https://CHeVIE.vn/ontologies/Planning">
         <rdf:type rdf:resource="https://CHeVIE.vn/ontologies/NaturalTalent"/>
+		<rdfs:label xml:lang="en">Planning</rdfs:label>
+    <rdfs:label xml:lang="vi">Lập kế hoạch</rdfs:label>
+    <rdfs:comment xml:lang="en">Represents skills and talents in developing plans and strategies.</rdfs:comment>
+    <rdfs:comment xml:lang="vi">Đại diện cho kỹ năng và tài năng trong việc phát triển kế hoạch và chiến lược.</rdfs:comment>
     </owl:NamedIndividual>
     
 
@@ -2896,6 +3208,10 @@ sameThing(P1, P2) :- type(P1, Point), type(P2, Point), spaciallyIntersects(P1, P
 
     <owl:NamedIndividual rdf:about="https://CHeVIE.vn/ontologies/Poetry">
         <rdf:type rdf:resource="https://CHeVIE.vn/ontologies/NaturalTalent"/>
+		<rdfs:label xml:lang="en">Poetry</rdfs:label>
+    <rdfs:label xml:lang="vi">Thơ ca</rdfs:label>
+    <rdfs:comment xml:lang="en">Represents talents and skills in composing and analyzing poetry.</rdfs:comment>
+    <rdfs:comment xml:lang="vi">Đại diện cho tài năng và kỹ năng sáng tác và phân tích thơ ca.</rdfs:comment>
     </owl:NamedIndividual>
     
 
@@ -2904,6 +3220,10 @@ sameThing(P1, P2) :- type(P1, Point), type(P2, Point), spaciallyIntersects(P1, P
 
     <owl:NamedIndividual rdf:about="https://CHeVIE.vn/ontologies/Protestantism">
         <rdf:type rdf:resource="https://CHeVIE.vn/ontologies/Religion"/>
+		<rdfs:label xml:lang="en">Protestantism</rdfs:label>
+    <rdfs:label xml:lang="vi">Tin Lành</rdfs:label>
+    <rdfs:comment xml:lang="en">Represents the Protestant faith and practices.</rdfs:comment>
+    <rdfs:comment xml:lang="vi">Đại diện cho đức tin và nghi lễ Tin Lành.</rdfs:comment>
     </owl:NamedIndividual>
     
 
@@ -2913,6 +3233,9 @@ sameThing(P1, P2) :- type(P1, Point), type(P2, Point), spaciallyIntersects(P1, P
     <owl:NamedIndividual rdf:about="https://CHeVIE.vn/ontologies/ProvincialLevel">
         <rdf:type rdf:resource="https://CHeVIE.vn/ontologies/SiteLevel"/>
         <rdfs:label xml:lang="vi">Di tích cấp tỉnh</rdfs:label>
+		<rdfs:label xml:lang="en">Provincial Level</rdfs:label>
+    <rdfs:comment xml:lang="en">Represents sites of provincial heritage and significance.</rdfs:comment>
+    <rdfs:comment xml:lang="vi">Đại diện cho các di tích có ý nghĩa và di sản cấp tỉnh.</rdfs:comment>
     </owl:NamedIndividual>
     
 
@@ -2921,6 +3244,10 @@ sameThing(P1, P2) :- type(P1, Point), type(P2, Point), spaciallyIntersects(P1, P
 
     <owl:NamedIndividual rdf:about="https://CHeVIE.vn/ontologies/QuangTrung">
         <rdf:type rdf:resource="https://CHeVIE.vn/ontologies/HistoricalFigure"/>
+		 <rdfs:label xml:lang="en">Quang Trung</rdfs:label>
+    <rdfs:label xml:lang="vi">Quang Trung</rdfs:label>
+    <rdfs:comment xml:lang="en">Represents the historical figure Quang Trung and related historical information.</rdfs:comment>
+    <rdfs:comment xml:lang="vi">Đại diện cho nhân vật lịch sử Quang Trung và các thông tin lịch sử liên quan.</rdfs:comment>
         <deathDate rdf:resource="https://CHeVIE.vn/ontologies/QuangTrungDateOfDeathStatement"/>
     </owl:NamedIndividual>
     
@@ -2935,6 +3262,10 @@ sameThing(P1, P2) :- type(P1, Point), type(P2, Point), spaciallyIntersects(P1, P
         <time:day rdf:datatype="http://www.w3.org/2001/XMLSchema#gDay">29</time:day>
         <time:month rdf:datatype="http://www.w3.org/2001/XMLSchema#gMonth">07</time:month>
         <time:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1792</time:year>
+		<rdfs:label xml:lang="en">Quang Trung Death Date</rdfs:label>
+    <rdfs:label xml:lang="vi">Ngày mất Quang Trung</rdfs:label>
+    <rdfs:comment xml:lang="en">Represents the date of death of Quang Trung according to the lunar calendar.</rdfs:comment>
+    <rdfs:comment xml:lang="vi">Đại diện cho ngày mất của Quang Trung theo lịch âm.</rdfs:comment>
     </owl:NamedIndividual>
     
 
@@ -2945,6 +3276,10 @@ sameThing(P1, P2) :- type(P1, Point), type(P2, Point), spaciallyIntersects(P1, P
         <rdf:type rdf:resource="https://CHeVIE.vn/ontologies/Reference"/>
         <referenceURL>https://vi.wikipedia.org/wiki/Quang_Trung</referenceURL>
         <retrieved rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-10-10T00:00:00Z</retrieved>
+		<rdfs:label xml:lang="en">Quang Trung Death Date Reference</rdfs:label>
+    <rdfs:label xml:lang="vi">Tham chiếu ngày mất Quang Trung</rdfs:label>
+    <rdfs:comment xml:lang="en">Reference for the death date of Quang Trung.</rdfs:comment>
+    <rdfs:comment xml:lang="vi">Tham khảo ngày mất của Quang Trung.</rdfs:comment>
     </owl:NamedIndividual>
     
 
@@ -2955,6 +3290,10 @@ sameThing(P1, P2) :- type(P1, Point), type(P2, Point), spaciallyIntersects(P1, P
         <rdf:type rdf:resource="https://CHeVIE.vn/ontologies/Statement"/>
         <_deathDate rdf:resource="https://CHeVIE.vn/ontologies/QuangTrungDeathDate"/>
         <prov:wasDerivedFrom rdf:resource="https://CHeVIE.vn/ontologies/QuangTrungDeathDateReference"/>
+		<rdfs:label xml:lang="en">Quang Trung Death Date Statement</rdfs:label>
+    <rdfs:label xml:lang="vi">Tuyên bố ngày mất Quang Trung</rdfs:label>
+    <rdfs:comment xml:lang="en">Statement related to the death date of Quang Trung.</rdfs:comment>
+    <rdfs:comment xml:lang="vi">Tuyên bố liên quan đến ngày mất của Quang Trung.</rdfs:comment>
     </owl:NamedIndividual>
     
 
@@ -2963,6 +3302,10 @@ sameThing(P1, P2) :- type(P1, Point), type(P2, Point), spaciallyIntersects(P1, P
 
     <owl:NamedIndividual rdf:about="https://CHeVIE.vn/ontologies/QuangTrungDeathDateTimeDescription">
         <rdf:type rdf:resource="http://www.w3.org/2006/time#DateTimeDescription"/>
+		<rdfs:label xml:lang="en">Quang Trung Death Date Time Description</rdfs:label>
+    <rdfs:label xml:lang="vi">Mô tả thời gian ngày mất Quang Trung</rdfs:label>
+    <rdfs:comment xml:lang="en">Description of the date and time of Quang Trung’s death.</rdfs:comment>
+    <rdfs:comment xml:lang="vi">Mô tả ngày và thời gian mất của Quang Trung.</rdfs:comment>
     </owl:NamedIndividual>
     
 
@@ -2972,6 +3315,9 @@ sameThing(P1, P2) :- type(P1, Point), type(P2, Point), spaciallyIntersects(P1, P
     <owl:NamedIndividual rdf:about="https://CHeVIE.vn/ontologies/SepcialNationalLevel">
         <rdf:type rdf:resource="https://CHeVIE.vn/ontologies/SiteLevel"/>
         <rdfs:label xml:lang="vi">Di tích quốc gia đặc biệt</rdfs:label>
+		<rdfs:label xml:lang="en">Special National Level</rdfs:label>
+    <rdfs:comment xml:lang="en">Represents sites of special national heritage and significance.</rdfs:comment>
+    <rdfs:comment xml:lang="vi">Đại diện cho các di tích có ý nghĩa và di sản quốc gia đặc biệt.</rdfs:comment>
     </owl:NamedIndividual>
     
 
@@ -2980,6 +3326,10 @@ sameThing(P1, P2) :- type(P1, Point), type(P2, Point), spaciallyIntersects(P1, P
 
     <owl:NamedIndividual rdf:about="https://CHeVIE.vn/ontologies/Shooting">
         <rdf:type rdf:resource="https://CHeVIE.vn/ontologies/NaturalTalent"/>
+		<rdfs:label xml:lang="en">Shooting</rdfs:label>
+    <rdfs:label xml:lang="vi">Bắn súng</rdfs:label>
+    <rdfs:comment xml:lang="en">Represents talents and skills in shooting sports and marksmanship.</rdfs:comment>
+    <rdfs:comment xml:lang="vi">Đại diện cho tài năng và kỹ năng trong môn thể thao bắn súng.</rdfs:comment>
     </owl:NamedIndividual>
     
 
@@ -2988,6 +3338,10 @@ sameThing(P1, P2) :- type(P1, Point), type(P2, Point), spaciallyIntersects(P1, P
 
     <owl:NamedIndividual rdf:about="https://CHeVIE.vn/ontologies/Swimming">
         <rdf:type rdf:resource="https://CHeVIE.vn/ontologies/NaturalTalent"/>
+		<rdfs:label xml:lang="en">Swimming</rdfs:label>
+    <rdfs:label xml:lang="vi">Bơi lội</rdfs:label>
+    <rdfs:comment xml:lang="en">Represents talents and skills in swimming and water sports.</rdfs:comment>
+    <rdfs:comment xml:lang="vi">Đại diện cho tài năng và kỹ năng trong bơi lội và các môn thể thao dưới nước.</rdfs:comment>
     </owl:NamedIndividual>
     
 
@@ -2996,6 +3350,10 @@ sameThing(P1, P2) :- type(P1, Point), type(P2, Point), spaciallyIntersects(P1, P
 
     <owl:NamedIndividual rdf:about="https://CHeVIE.vn/ontologies/Taming">
         <rdf:type rdf:resource="https://CHeVIE.vn/ontologies/NaturalTalent"/>
+		<rdfs:label xml:lang="en">Taming</rdfs:label>
+    <rdfs:label xml:lang="vi">Thuần hóa</rdfs:label>
+    <rdfs:comment xml:lang="en">Represents skills in taming and training animals.</rdfs:comment>
+    <rdfs:comment xml:lang="vi">Đại diện cho kỹ năng thuần hóa và huấn luyện động vật.</rdfs:comment>
     </owl:NamedIndividual>
     
 
@@ -3004,6 +3362,10 @@ sameThing(P1, P2) :- type(P1, Point), type(P2, Point), spaciallyIntersects(P1, P
 
     <owl:NamedIndividual rdf:about="https://CHeVIE.vn/ontologies/Taxes">
         <rdf:type rdf:resource="https://CHeVIE.vn/ontologies/NaturalTalent"/>
+		<rdfs:label xml:lang="en">Taxes</rdfs:label>
+    <rdfs:label xml:lang="vi">Thuế</rdfs:label>
+    <rdfs:comment xml:lang="en">Represents skills and knowledge in tax preparation and management.</rdfs:comment>
+    <rdfs:comment xml:lang="vi">Đại diện cho kỹ năng và kiến thức trong việc chuẩn bị và quản lý thuế.</rdfs:comment>
     </owl:NamedIndividual>
     
 
@@ -3012,6 +3374,10 @@ sameThing(P1, P2) :- type(P1, Point), type(P2, Point), spaciallyIntersects(P1, P
 
     <owl:NamedIndividual rdf:about="https://CHeVIE.vn/ontologies/Teaching">
         <rdf:type rdf:resource="https://CHeVIE.vn/ontologies/NaturalTalent"/>
+		<rdfs:label xml:lang="en">Teaching</rdfs:label>
+    <rdfs:label xml:lang="vi">Giảng dạy</rdfs:label>
+    <rdfs:comment xml:lang="en">Represents talents and skills in education and instruction.</rdfs:comment>
+    <rdfs:comment xml:lang="vi">Đại diện cho tài năng và kỹ năng trong giáo dục và giảng dạy.</rdfs:comment>
     </owl:NamedIndividual>
     
 
@@ -3021,6 +3387,10 @@ sameThing(P1, P2) :- type(P1, Point), type(P2, Point), spaciallyIntersects(P1, P
     <owl:NamedIndividual rdf:about="https://CHeVIE.vn/ontologies/TrieuRulingDynastyEndDate">
         <rdf:type rdf:resource="http://www.w3.org/2006/time#Instant"/>
         <time:inDateTime rdf:resource="https://CHeVIE.vn/ontologies/TrieuRulingDynastyEndDateDescription"/>
+		<rdfs:label xml:lang="en">Trieu Ruling Dynasty End Date</rdfs:label>
+    <rdfs:label xml:lang="vi">Ngày kết thúc triều đại Triệu</rdfs:label>
+    <rdfs:comment xml:lang="en">Represents the end date of the Trieu ruling dynasty.</rdfs:comment>
+    <rdfs:comment xml:lang="vi">Đại diện cho ngày kết thúc triều đại Triệu.</rdfs:comment>
     </owl:NamedIndividual>
     
 
@@ -3031,6 +3401,10 @@ sameThing(P1, P2) :- type(P1, Point), type(P2, Point), spaciallyIntersects(P1, P
         <rdf:type rdf:resource="http://www.w3.org/2006/time#DateTimeDescription"/>
         <time:hasTRS rdf:resource="https://CHeVIE.vn/ontologies/GregorianCalendar"/>
         <time:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-110</time:year>
+		<rdfs:label xml:lang="en">Trieu Ruling Dynasty End Date Description</rdfs:label>
+    <rdfs:label xml:lang="vi">Mô tả ngày kết thúc triều đại Triệu</rdfs:label>
+    <rdfs:comment xml:lang="en">Description of the end date of the Trieu ruling dynasty.</rdfs:comment>
+    <rdfs:comment xml:lang="vi">Mô tả về ngày kết thúc triều đại Triệu.</rdfs:comment>
     </owl:NamedIndividual>
     
 
@@ -3041,6 +3415,10 @@ sameThing(P1, P2) :- type(P1, Point), type(P2, Point), spaciallyIntersects(P1, P
         <rdf:type rdf:resource="https://CHeVIE.vn/ontologies/Statement"/>
         <_end rdf:resource="https://CHeVIE.vn/ontologies/TrieuRulingDynastyEndDate"/>
         <prov:wasDerivedFrom rdf:resource="https://CHeVIE.vn/ontologies/TrieuRulingDynastyPeriodReference"/>
+		<rdfs:label xml:lang="en">Trieu Ruling Dynasty End Date Statement</rdfs:label>
+    <rdfs:label xml:lang="vi">Tuyên bố ngày kết thúc triều đại Triệu</rdfs:label>
+    <rdfs:comment xml:lang="en">Statement regarding the end date of the Trieu ruling dynasty.</rdfs:comment>
+    <rdfs:comment xml:lang="vi">Tuyên bố liên quan đến ngày kết thúc triều đại Triệu.</rdfs:comment>
     </owl:NamedIndividual>
     
 
@@ -3064,6 +3442,10 @@ sameThing(P1, P2) :- type(P1, Point), type(P2, Point), spaciallyIntersects(P1, P
     <owl:NamedIndividual rdf:about="https://CHeVIE.vn/ontologies/TrieuRulingDynastyStartDate">
         <rdf:type rdf:resource="http://www.w3.org/2006/time#Instant"/>
         <time:inDateTime rdf:resource="https://CHeVIE.vn/ontologies/TrieuRulingDynastyStartDateDescription"/>
+		<rdfs:label xml:lang="en">Trieu Ruling Dynasty Start Date</rdfs:label>
+    <rdfs:label xml:lang="vi">Ngày bắt đầu triều đại Triệu</rdfs:label>
+    <rdfs:comment xml:lang="en">Represents the start date of the Trieu ruling dynasty.</rdfs:comment>
+    <rdfs:comment xml:lang="vi">Đại diện cho ngày bắt đầu triều đại Triệu.</rdfs:comment>
     </owl:NamedIndividual>
     
 
@@ -3074,6 +3456,10 @@ sameThing(P1, P2) :- type(P1, Point), type(P2, Point), spaciallyIntersects(P1, P
         <rdf:type rdf:resource="http://www.w3.org/2006/time#DateTimeDescription"/>
         <time:hasTRS rdf:resource="https://CHeVIE.vn/ontologies/GregorianCalendar"/>
         <time:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-210</time:year>
+		<rdfs:label xml:lang="en">Trieu Ruling Dynasty Start Date Description</rdfs:label>
+    <rdfs:label xml:lang="vi">Mô tả ngày bắt đầu triều đại Triệu</rdfs:label>
+    <rdfs:comment xml:lang="en">Description of the start date of the Trieu ruling dynasty.</rdfs:comment>
+    <rdfs:comment xml:lang="vi">Mô tả về ngày bắt đầu triều đại Triệu.</rdfs:comment>
     </owl:NamedIndividual>
     
 
@@ -3084,6 +3470,10 @@ sameThing(P1, P2) :- type(P1, Point), type(P2, Point), spaciallyIntersects(P1, P
         <rdf:type rdf:resource="https://CHeVIE.vn/ontologies/Statement"/>
         <_start rdf:resource="https://CHeVIE.vn/ontologies/TrieuRulingDynastyStartDate"/>
         <prov:wasDerivedFrom rdf:resource="https://CHeVIE.vn/ontologies/TrieuRulingDynastyPeriodReference"/>
+		<rdfs:label xml:lang="en">Trieu Ruling Dynasty Start Date Statement</rdfs:label>
+    <rdfs:label xml:lang="vi">Tuyên bố ngày bắt đầu triều đại Triệu</rdfs:label>
+    <rdfs:comment xml:lang="en">Statement regarding the start date of the Trieu ruling dynasty.</rdfs:comment>
+    <rdfs:comment xml:lang="vi">Tuyên bố liên quan đến ngày bắt đầu triều đại Triệu.</rdfs:comment>
     </owl:NamedIndividual>
     
 
@@ -3092,6 +3482,10 @@ sameThing(P1, P2) :- type(P1, Point), type(P2, Point), spaciallyIntersects(P1, P
 
     <owl:NamedIndividual rdf:about="https://CHeVIE.vn/ontologies/Wisdom">
         <rdf:type rdf:resource="https://CHeVIE.vn/ontologies/NaturalTalent"/>
+		<rdfs:label xml:lang="en">Wisdom</rdfs:label>
+    <rdfs:label xml:lang="vi">Trí khôn</rdfs:label>
+    <rdfs:comment xml:lang="en">Represents talents and skills in applying knowledge and insight.</rdfs:comment>
+    <rdfs:comment xml:lang="vi">Đại diện cho tài năng và kỹ năng trong việc áp dụng kiến thức và hiểu biết.</rdfs:comment>
     </owl:NamedIndividual>
     
 
@@ -3100,6 +3494,10 @@ sameThing(P1, P2) :- type(P1, Point), type(P2, Point), spaciallyIntersects(P1, P
 
     <owl:NamedIndividual rdf:about="https://CHeVIE.vn/ontologies/Writing">
         <rdf:type rdf:resource="https://CHeVIE.vn/ontologies/NaturalTalent"/>
+		<rdfs:label xml:lang="en">Writing</rdfs:label>
+    <rdfs:label xml:lang="vi">Viết</rdfs:label>
+    <rdfs:comment xml:lang="en">Represents talents and skills in written communication and composition.</rdfs:comment>
+    <rdfs:comment xml:lang="vi">Đại diện cho tài năng và kỹ năng trong giao tiếp và sáng tác bằng văn bản.</rdfs:comment>
     </owl:NamedIndividual>
     
 
