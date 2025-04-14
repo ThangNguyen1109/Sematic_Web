@@ -2694,6 +2694,10 @@ sameThing(P1, P2) :- type(P1, Point), type(P2, Point), spaciallyIntersects(P1, P
 
     <owl:NamedIndividual rdf:about="https://CHeVIE.vn/ontologies/Buddhism">
         <rdf:type rdf:resource="https://CHeVIE.vn/ontologies/Religion"/>
+		<rdfs:label xml:lang="en">Buddhism</rdfs:label>
+    <rdfs:label xml:lang="vi">Phật giáo</rdfs:label>
+    <rdfs:comment xml:lang="en">Buddhism is a religion and philosophy that originated in India around the 5th century BCE, founded by Siddhartha Gautama, known as the Buddha.</rdfs:comment>
+    <rdfs:comment xml:lang="vi">Phật giáo là một tôn giáo và triết lý có nguồn gốc từ Ấn Độ vào khoảng thế kỷ 5 TCN, được thành lập bởi Tất-đạt-đa Cồ-đàm, người được biết đến với tên gọi Đức Phật.</rdfs:comment>
     </owl:NamedIndividual>
     
 
@@ -2702,6 +2706,10 @@ sameThing(P1, P2) :- type(P1, Point), type(P2, Point), spaciallyIntersects(P1, P
 
     <owl:NamedIndividual rdf:about="https://CHeVIE.vn/ontologies/Caodaism">
         <rdf:type rdf:resource="https://CHeVIE.vn/ontologies/Religion"/>
+		<rdfs:label xml:lang="en">Caodaism</rdfs:label>
+    <rdfs:label xml:lang="vi">Đạo Cao Đài</rdfs:label>
+    <rdfs:comment xml:lang="en">Caodaism is a syncretic religion founded in Vietnam in 1926, combining elements of Buddhism, Taoism, Confucianism, and Christianity.</rdfs:comment>
+    <rdfs:comment xml:lang="vi">Đạo Cao Đài là một tôn giáo tổng hợp được thành lập tại Việt Nam vào năm 1926, kết hợp các yếu tố của Phật giáo, Đạo giáo, Nho giáo và Thiên Chúa giáo.</rdfs:comment>
     </owl:NamedIndividual>
     
 
