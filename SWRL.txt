@@ -1,0 +1,8 @@
+
+HistoricalSite(?x) ^ commemorateHistoricalFigure(?x, ?y) ^ HistoricalFigure(?y) -> relatedToSite(?y, ?x)
+
+HistoricalSite(?x) ^ hasLevel(?x, ?l) ^ NationalLevel(?l) -> isNationalSite(?x)
+
+HistoricalEvent(?x) ^ occurredDuring(?x, ?y) ^ Dynasty(?y) -> relatedToDynasty(?x, ?y)
+
+Person(?p1) ^ Person(?p2) ^ _father(?p1, ?f) ^ _father(?p2, ?f) ^ differentFrom(?p1, ?p2) -> _siblings(?p1, ?p2)
