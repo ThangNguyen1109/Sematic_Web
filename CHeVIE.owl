@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="https://CHeVIE.vn/ontologies/"
      xmlns:chevie="https://CHeVIE.vn/ontologies#"
+	 xmlns:chev="https://CHeVIE.vn/ontologies/"
      xml:base="https://CHeVIE.vn/ontologies/"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
@@ -3642,6 +3643,295 @@ sameThing(P1, P2) :- type(P1, Point), type(P2, Point), spaciallyIntersects(P1, P
 		<rdfs:comment xml:lang="en">A superclass for all types of heritage sites, including historical, cultural, revolutionary, and landscape sites.</rdfs:comment>
 		<rdfs:comment xml:lang="vi">Siêu lớp cho tất cả các loại di sản, bao gồm di tích lịch sử, văn hóa, cách mạng và cảnh quan.</rdfs:comment>
 	</owl:Class>
+	
+	<rdf:Description rdf:about="https://CHeVIE.vn/ontologies/NguyenVanA">
+		<rdf:type rdf:resource="https://CHeVIE.vn/ontologies/Person"/>
+		<chev:_description> Một nhà khoa học nổi tiếng. </chev:_description>
+		<chev:referenceURL rdf:resource="https://vi.wikipedia.org/wiki/Nhà_khoa_học_A"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://CHeVIE.vn/ontologies/LeThiB">
+		<rdf:type rdf:resource="https://CHeVIE.vn/ontologies/Person"/>
+		<chev:_description> Một nữ anh hùng thời chiến. </chev:_description>
+		<chev:referenceURL rdf:resource="https://vi.wikipedia.org/wiki/Nữ_anh_hùng_B"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://CHeVIE.vn/ontologies/TranVanC">
+		<rdf:type rdf:resource="https://CHeVIE.vn/ontologies/Person"/>
+		<chev:_description> Một nhà giáo có nhiều đóng góp cho giáo dục Việt Nam. </chev:_description>
+		<chev:referenceURL rdf:resource="https://vi.wikipedia.org/wiki/Nhà_giáo_C"/>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="https://CHeVIE.vn/ontologies/NgoThiXuan">
+		<rdf:type rdf:resource="https://CHeVIE.vn/ontologies/Person"/>
+		<chev:_relatedToEthnicGroup rdf:resource="https://CHeVIE.vn/ontologies/Tay"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://CHeVIE.vn/ontologies/PhamTuan">
+		<rdf:type rdf:resource="https://CHeVIE.vn/ontologies/Person"/>
+		<chev:_relatedToEthnicGroup rdf:resource="https://CHeVIE.vn/ontologies/Kinh"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://CHeVIE.vn/ontologies/Tay">
+		<rdf:type rdf:resource="https://CHeVIE.vn/ontologies/EthnicGroup"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://CHeVIE.vn/ontologies/Kinh">
+		<rdf:type rdf:resource="https://CHeVIE.vn/ontologies/EthnicGroup"/>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="https://CHeVIE.vn/ontologies/LeVanHieu">
+		<rdf:type rdf:resource="https://CHeVIE.vn/ontologies/Person"/>
+		<chev:description>Một bác sĩ nổi tiếng trong lĩnh vực y học cộng đồng.</chev:description>
+		<chev:referenceURL rdf:resource="https://vi.wikipedia.org/wiki/Bác_sĩ_Hiếu"/>
+		<chev:relatedToEthnicGroup rdf:resource="https://CHeVIE.vn/ontologies/Kinh"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://CHeVIE.vn/ontologies/TranThiDao">
+		<rdf:type rdf:resource="https://CHeVIE.vn/ontologies/Person"/>
+		<chev:description>Một nữ nhà thơ tiêu biểu của miền Trung.</chev:description>
+		<chev:referenceURL rdf:resource="https://vi.wikipedia.org/wiki/Nhà_thơ_Đào"/>
+		<chev:relatedToEthnicGroup rdf:resource="https://CHeVIE.vn/ontologies/Muong"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://CHeVIE.vn/ontologies/NguyenCongTien">
+		<rdf:type rdf:resource="https://CHeVIE.vn/ontologies/Person"/>
+		<chev:description>Một kỹ sư công nghệ thông tin từng làm việc tại Thung lũng Silicon.</chev:description>
+		<chev:referenceURL rdf:resource="https://vi.wikipedia.org/wiki/Kỹ_sư_Tiến"/>
+		<chev:relatedToEthnicGroup rdf:resource="https://CHeVIE.vn/ontologies/Kinh"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://CHeVIE.vn/ontologies/HoangThiHue">
+		<rdf:type rdf:resource="https://CHeVIE.vn/ontologies/Person"/>
+		<chev:description>Một nghệ nhân làm tranh dân gian Đông Hồ.</chev:description>
+		<chev:referenceURL rdf:resource="https://vi.wikipedia.org/wiki/Nghệ_nhân_Huệ"/>
+		<chev:relatedToEthnicGroup rdf:resource="https://CHeVIE.vn/ontologies/Kinh"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://CHeVIE.vn/ontologies/PhamMinhQuang">
+		<rdf:type rdf:resource="https://CHeVIE.vn/ontologies/Person"/>
+		<chev:description>Một nhà hoạt động xã hội vì quyền trẻ em.</chev:description>
+		<chev:referenceURL rdf:resource="https://vi.wikipedia.org/wiki/Nhà_hoạt_động_Quang"/>
+		<chev:relatedToEthnicGroup rdf:resource="https://CHeVIE.vn/ontologies/Dao"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://CHeVIE.vn/ontologies/DoThiHa">
+		<rdf:type rdf:resource="https://CHeVIE.vn/ontologies/Person"/>
+		<chev:description>Giáo viên dạy Toán nhiều năm liền đạt danh hiệu giáo viên giỏi quốc gia.</chev:description>
+		<chev:referenceURL rdf:resource="https://vi.wikipedia.org/wiki/Cô_Hà_Toán"/>
+		<chev:relatedToEthnicGroup rdf:resource="https://CHeVIE.vn/ontologies/Kinh"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://CHeVIE.vn/ontologies/VoXuanPhuc">
+		<rdf:type rdf:resource="https://CHeVIE.vn/ontologies/Person"/>
+		<chev:description>Vận động viên Paralympic từng giành huy chương vàng quốc tế.</chev:description>
+		<chev:referenceURL rdf:resource="https://vi.wikipedia.org/wiki/VĐV_Phúc"/>
+		<chev:relatedToEthnicGroup rdf:resource="https://CHeVIE.vn/ontologies/Cham"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://CHeVIE.vn/ontologies/LyThiMai">
+		<rdf:type rdf:resource="https://CHeVIE.vn/ontologies/Person"/>
+		<chev:description>Ca sĩ nổi bật với các ca khúc dân ca Tày.</chev:description>
+		<chev:referenceURL rdf:resource="https://vi.wikipedia.org/wiki/Ca_sĩ_Mai"/>
+		<chev:relatedToEthnicGroup rdf:resource="https://CHeVIE.vn/ontologies/Tay"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://CHeVIE.vn/ontologies/DangHuuLong">
+		<rdf:type rdf:resource="https://CHeVIE.vn/ontologies/Person"/>
+		<chev:description>Nhà văn với nhiều tác phẩm về đề tài nông thôn Việt Nam.</chev:description>
+		<chev:referenceURL rdf:resource="https://vi.wikipedia.org/wiki/Nhà_văn_Long"/>
+		<chev:relatedToEthnicGroup rdf:resource="https://CHeVIE.vn/ontologies/Kinh"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://CHeVIE.vn/ontologies/NongVanSon">
+		<rdf:type rdf:resource="https://CHeVIE.vn/ontologies/Person"/>
+		<chev:description>Nhà nghiên cứu văn hóa dân tộc Nùng.</chev:description>
+		<chev:referenceURL rdf:resource="https://vi.wikipedia.org/wiki/Nhà_nghiên_cứu_Sơn"/>
+		<chev:relatedToEthnicGroup rdf:resource="https://CHeVIE.vn/ontologies/Nung"/>
+	</rdf:Description>
+	
+	<!-- https://CHeVIE.vn/ontologies/LeDynasty -->
+	<owl:NamedIndividual rdf:about="https://CHeVIE.vn/ontologies/LeDynasty">
+		<rdf:type rdf:resource="https://CHeVIE.vn/ontologies/Dynasty"/>
+		<rdfs:label xml:lang="en">Le Dynasty</rdfs:label>
+		<rdfs:label xml:lang="vi">Nhà Lê</rdfs:label>
+		<rdfs:comment xml:lang="en">The Lê Dynasty, a major ruling dynasty of Vietnam from 1428 to 1789.</rdfs:comment>
+		<rdfs:comment xml:lang="vi">Nhà Lê, triều đại phong kiến lớn của Việt Nam từ năm 1428 đến 1789.</rdfs:comment>
+	</owl:NamedIndividual>
+
+	<!-- https://CHeVIE.vn/ontologies/TranDynasty -->
+	<owl:NamedIndividual rdf:about="https://CHeVIE.vn/ontologies/TranDynasty">
+		<rdf:type rdf:resource="https://CHeVIE.vn/ontologies/Dynasty"/>
+		<rdfs:label xml:lang="en">Tran Dynasty</rdfs:label>
+		<rdfs:label xml:lang="vi">Nhà Trần</rdfs:label>
+		<rdfs:comment xml:lang="en">The Trần Dynasty, known for its resistance against Mongol invasions, ruled from 1225 to 1400.</rdfs:comment>
+		<rdfs:comment xml:lang="vi">Nhà Trần, nổi tiếng với ba lần đánh bại quân Nguyên Mông, trị vì từ 1225 đến 1400.</rdfs:comment>
+	</owl:NamedIndividual>
+
+	<!-- https://CHeVIE.vn/ontologies/LyDynasty -->
+	<owl:NamedIndividual rdf:about="https://CHeVIE.vn/ontologies/LyDynasty">
+		<rdf:type rdf:resource="https://CHeVIE.vn/ontologies/Dynasty"/>
+		<rdfs:label xml:lang="en">Ly Dynasty</rdfs:label>
+		<rdfs:label xml:lang="vi">Nhà Lý</rdfs:label>
+		<rdfs:comment xml:lang="en">The Lý Dynasty, an important foundation dynasty of Vietnam, ruled from 1009 to 1225.</rdfs:comment>
+		<rdfs:comment xml:lang="vi">Nhà Lý, triều đại đặt nền móng phát triển cho Đại Việt, trị vì từ năm 1009 đến 1225.</rdfs:comment>
+	</owl:NamedIndividual>
+
+	<!-- https://CHeVIE.vn/ontologies/DinhDynasty -->
+	<owl:NamedIndividual rdf:about="https://CHeVIE.vn/ontologies/DinhDynasty">
+		<rdf:type rdf:resource="https://CHeVIE.vn/ontologies/Dynasty"/>
+		<rdfs:label xml:lang="en">Dinh Dynasty</rdfs:label>
+		<rdfs:label xml:lang="vi">Nhà Đinh</rdfs:label>
+		<rdfs:comment xml:lang="en">The Đinh Dynasty, which unified the country in 968–980.</rdfs:comment>
+		<rdfs:comment xml:lang="vi">Nhà Đinh, thống nhất đất nước và chấm dứt thời kỳ loạn 12 sứ quân, trị vì từ 968 đến 980.</rdfs:comment>
+	</owl:NamedIndividual>
+
+	<!-- https://CHeVIE.vn/ontologies/EarlyLeDynasty -->
+	<owl:NamedIndividual rdf:about="https://CHeVIE.vn/ontologies/EarlyLeDynasty">
+		<rdf:type rdf:resource="https://CHeVIE.vn/ontologies/Dynasty"/>
+		<rdfs:label xml:lang="en">Early Le Dynasty</rdfs:label>
+		<rdfs:label xml:lang="vi">Nhà Tiền Lê</rdfs:label>
+		<rdfs:comment xml:lang="en">The Early Lê Dynasty, ruling from 980 to 1009.</rdfs:comment>
+		<rdfs:comment xml:lang="vi">Nhà Tiền Lê, triều đại nối tiếp nhà Đinh, trị vì Việt Nam từ năm 980 đến 1009.</rdfs:comment>
+	</owl:NamedIndividual>
+
+	<!-- https://CHeVIE.vn/ontologies/HoDynasty -->
+	<owl:NamedIndividual rdf:about="https://CHeVIE.vn/ontologies/HoDynasty">
+		<rdf:type rdf:resource="https://CHeVIE.vn/ontologies/Dynasty"/>
+		<rdfs:label xml:lang="en">Ho Dynasty</rdfs:label>
+		<rdfs:label xml:lang="vi">Nhà Hồ</rdfs:label>
+		<rdfs:comment xml:lang="en">The Hồ Dynasty, ruling from 1400 to 1407.</rdfs:comment>
+		<rdfs:comment xml:lang="vi">Nhà Hồ, triều đại cải cách ngắn ngủi nhưng có nhiều đổi mới, trị vì từ 1400 đến 1407.</rdfs:comment>
+	</owl:NamedIndividual>
+
+	<!-- https://CHeVIE.vn/ontologies/MacDynasty -->
+	<owl:NamedIndividual rdf:about="https://CHeVIE.vn/ontologies/MacDynasty">
+		<rdf:type rdf:resource="https://CHeVIE.vn/ontologies/Dynasty"/>
+		<rdfs:label xml:lang="en">Mac Dynasty</rdfs:label>
+		<rdfs:label xml:lang="vi">Nhà Mạc</rdfs:label>
+		<rdfs:comment xml:lang="en">The Mạc Dynasty, established by Mạc Đăng Dung, ruled from 1527 to 1677 in parts of Vietnam.</rdfs:comment>
+		<rdfs:comment xml:lang="vi">Nhà Mạc, do Mạc Đăng Dung thành lập, trị vì từ 1527 đến 1677 ở một phần đất nước.</rdfs:comment>
+	</owl:NamedIndividual>
+
+	<!-- https://CHeVIE.vn/ontologies/TaySonDynasty -->
+	<owl:NamedIndividual rdf:about="https://CHeVIE.vn/ontologies/TaySonDynasty">
+		<rdf:type rdf:resource="https://CHeVIE.vn/ontologies/Dynasty"/>
+		<rdfs:label xml:lang="en">Tay Son Dynasty</rdfs:label>
+		<rdfs:label xml:lang="vi">Nhà Tây Sơn</rdfs:label>
+		<rdfs:comment xml:lang="en">The Tây Sơn Dynasty, known for the Tây Sơn uprising, ruled from 1778 to 1802.</rdfs:comment>
+		<rdfs:comment xml:lang="vi">Nhà Tây Sơn, do anh em Tây Sơn lãnh đạo, trị vì từ 1778 đến 1802.</rdfs:comment>
+	</owl:NamedIndividual>
+
+	<!-- https://CHeVIE.vn/ontologies/TrinhLords -->
+	<owl:NamedIndividual rdf:about="https://CHeVIE.vn/ontologies/TrinhLords">
+		<rdf:type rdf:resource="https://CHeVIE.vn/ontologies/Dynasty"/>
+		<rdfs:label xml:lang="en">Trinh Lords</rdfs:label>
+		<rdfs:label xml:lang="vi">Chúa Trịnh</rdfs:label>
+		<rdfs:comment xml:lang="en">The Trịnh Lords, rulers of northern Vietnam in parallel with the Lê kings (1545–1787).</rdfs:comment>
+		<rdfs:comment xml:lang="vi">Chúa Trịnh, cai trị Đàng Ngoài song song với vua Lê từ 1545 đến 1787.</rdfs:comment>
+	</owl:NamedIndividual>
+
+	<!-- https://CHeVIE.vn/ontologies/NguyenLords -->
+	<owl:NamedIndividual rdf:about="https://CHeVIE.vn/ontologies/NguyenLords">
+		<rdf:type rdf:resource="https://CHeVIE.vn/ontologies/Dynasty"/>
+		<rdfs:label xml:lang="en">Nguyen Lords</rdfs:label>
+		<rdfs:label xml:lang="vi">Chúa Nguyễn</rdfs:label>
+		<rdfs:comment xml:lang="en">The Nguyễn Lords, who ruled southern Vietnam from the late 16th century until the Tây Sơn uprising.</rdfs:comment>
+		<rdfs:comment xml:lang="vi">Chúa Nguyễn, cai trị Đàng Trong từ cuối thế kỷ 16 đến khi phong trào Tây Sơn bùng nổ.</rdfs:comment>
+	</owl:NamedIndividual>
+	
+	<!-- https://CHeVIE.vn/ontologies/LeLoi -->
+	<owl:NamedIndividual rdf:about="https://CHeVIE.vn/ontologies/LeLoi">
+		<rdf:type rdf:resource="https://CHeVIE.vn/ontologies/HistoricalFigure"/>
+		<rdfs:label xml:lang="en">Le Loi</rdfs:label>
+		<rdfs:label xml:lang="vi">Lê Lợi</rdfs:label>
+		<rdfs:comment xml:lang="en">Represents the historical figure Le Loi and related historical information.</rdfs:comment>
+		<rdfs:comment xml:lang="vi">Đại diện cho nhân vật lịch sử Lê Lợi và các thông tin lịch sử liên quan.</rdfs:comment>
+	</owl:NamedIndividual>
+
+	<!-- https://CHeVIE.vn/ontologies/TranHungDao -->
+	<owl:NamedIndividual rdf:about="https://CHeVIE.vn/ontologies/TranHungDao">
+		<rdf:type rdf:resource="https://CHeVIE.vn/ontologies/HistoricalFigure"/>
+		<rdfs:label xml:lang="en">Tran Hung Dao</rdfs:label>
+		<rdfs:label xml:lang="vi">Trần Hưng Đạo</rdfs:label>
+		<rdfs:comment xml:lang="en">Represents the historical figure Tran Hung Dao and related historical information.</rdfs:comment>
+		<rdfs:comment xml:lang="vi">Đại diện cho nhân vật lịch sử Trần Hưng Đạo và các thông tin lịch sử liên quan.</rdfs:comment>
+	</owl:NamedIndividual>
+
+	<!-- https://CHeVIE.vn/ontologies/NguyenTrai -->
+	<owl:NamedIndividual rdf:about="https://CHeVIE.vn/ontologies/NguyenTrai">
+		<rdf:type rdf:resource="https://CHeVIE.vn/ontologies/HistoricalFigure"/>
+		<rdfs:label xml:lang="en">Nguyen Trai</rdfs:label>
+		<rdfs:label xml:lang="vi">Nguyễn Trãi</rdfs:label>
+		<rdfs:comment xml:lang="en">Represents the historical figure Nguyen Trai and related historical information.</rdfs:comment>
+		<rdfs:comment xml:lang="vi">Đại diện cho nhân vật lịch sử Nguyễn Trãi và các thông tin lịch sử liên quan.</rdfs:comment>
+	</owl:NamedIndividual>
+
+	<!-- https://CHeVIE.vn/ontologies/NguyenHue -->
+	<owl:NamedIndividual rdf:about="https://CHeVIE.vn/ontologies/NguyenHue">
+		<rdf:type rdf:resource="https://CHeVIE.vn/ontologies/HistoricalFigure"/>
+		<rdfs:label xml:lang="en">Nguyen Hue</rdfs:label>
+		<rdfs:label xml:lang="vi">Nguyễn Huệ</rdfs:label>
+		<rdfs:comment xml:lang="en">Represents the historical figure Nguyen Hue and related historical information.</rdfs:comment>
+		<rdfs:comment xml:lang="vi">Đại diện cho nhân vật lịch sử Nguyễn Huệ và các thông tin lịch sử liên quan.</rdfs:comment>
+	</owl:NamedIndividual>
+
+	<!-- https://CHeVIE.vn/ontologies/PhamNguLao -->
+	<owl:NamedIndividual rdf:about="https://CHeVIE.vn/ontologies/PhamNguLao">
+		<rdf:type rdf:resource="https://CHeVIE.vn/ontologies/HistoricalFigure"/>
+		<rdfs:label xml:lang="en">Pham Ngu Lao</rdfs:label>
+		<rdfs:label xml:lang="vi">Phạm Ngũ Lão</rdfs:label>
+		<rdfs:comment xml:lang="en">Represents the historical figure Pham Ngu Lao and related historical information.</rdfs:comment>
+		<rdfs:comment xml:lang="vi">Đại diện cho nhân vật lịch sử Phạm Ngũ Lão và các thông tin lịch sử liên quan.</rdfs:comment>
+	</owl:NamedIndividual>
+
+	<!-- https://CHeVIE.vn/ontologies/TranQuocToan -->
+	<owl:NamedIndividual rdf:about="https://CHeVIE.vn/ontologies/TranQuocToan">
+		<rdf:type rdf:resource="https://CHeVIE.vn/ontologies/HistoricalFigure"/>
+		<rdfs:label xml:lang="en">Tran Quoc Toan</rdfs:label>
+		<rdfs:label xml:lang="vi">Trần Quốc Toản</rdfs:label>
+		<rdfs:comment xml:lang="en">Represents the historical figure Tran Quoc Toan and related historical information.</rdfs:comment>
+		<rdfs:comment xml:lang="vi">Đại diện cho nhân vật lịch sử Trần Quốc Toản và các thông tin lịch sử liên quan.</rdfs:comment>
+	</owl:NamedIndividual>
+
+	<!-- https://CHeVIE.vn/ontologies/DinhTienHoang -->
+	<owl:NamedIndividual rdf:about="https://CHeVIE.vn/ontologies/DinhTienHoang">
+		<rdf:type rdf:resource="https://CHeVIE.vn/ontologies/HistoricalFigure"/>
+		<rdfs:label xml:lang="en">Dinh Tien Hoang</rdfs:label>
+		<rdfs:label xml:lang="vi">Đinh Tiên Hoàng</rdfs:label>
+		<rdfs:comment xml:lang="en">Represents the historical figure Dinh Tien Hoang and related historical information.</rdfs:comment>
+		<rdfs:comment xml:lang="vi">Đại diện cho nhân vật lịch sử Đinh Tiên Hoàng và các thông tin lịch sử liên quan.</rdfs:comment>
+	</owl:NamedIndividual>
+
+	<!-- https://CHeVIE.vn/ontologies/LyThaiTo -->
+	<owl:NamedIndividual rdf:about="https://CHeVIE.vn/ontologies/LyThaiTo">
+		<rdf:type rdf:resource="https://CHeVIE.vn/ontologies/HistoricalFigure"/>
+		<rdfs:label xml:lang="en">Ly Thai To</rdfs:label>
+		<rdfs:label xml:lang="vi">Lý Thái Tổ</rdfs:label>
+		<rdfs:comment xml:lang="en">Represents the historical figure Ly Thai To and related historical information.</rdfs:comment>
+		<rdfs:comment xml:lang="vi">Đại diện cho nhân vật lịch sử Lý Thái Tổ và các thông tin lịch sử liên quan.</rdfs:comment>
+	</owl:NamedIndividual>
+
+	<!-- https://CHeVIE.vn/ontologies/HaiBaTrung -->
+	<owl:NamedIndividual rdf:about="https://CHeVIE.vn/ontologies/HaiBaTrung">
+		<rdf:type rdf:resource="https://CHeVIE.vn/ontologies/HistoricalFigure"/>
+		<rdfs:label xml:lang="en">Hai Ba Trung</rdfs:label>
+		<rdfs:label xml:lang="vi">Hai Bà Trưng</rdfs:label>
+		<rdfs:comment xml:lang="en">Represents the historical figures Hai Ba Trung and related historical information.</rdfs:comment>
+		<rdfs:comment xml:lang="vi">Đại diện cho hai nhân vật lịch sử Hai Bà Trưng và các thông tin lịch sử liên quan.</rdfs:comment>
+	</owl:NamedIndividual>
+
+	<!-- https://CHeVIE.vn/ontologies/NguyenDu -->
+	<owl:NamedIndividual rdf:about="https://CHeVIE.vn/ontologies/NguyenDu">
+		<rdf:type rdf:resource="https://CHeVIE.vn/ontologies/HistoricalFigure"/>
+		<rdfs:label xml:lang="en">Nguyen Du</rdfs:label>
+		<rdfs:label xml:lang="vi">Nguyễn Du</rdfs:label>
+		<rdfs:comment xml:lang="en">Represents the historical figure Nguyen Du and related historical information.</rdfs:comment>
+		<rdfs:comment xml:lang="vi">Đại diện cho nhân vật lịch sử Nguyễn Du và các thông tin lịch sử liên quan.</rdfs:comment>
+	</owl:NamedIndividual>
+
+
+
 
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////

@@ -1,0 +1,33 @@
+1. Truy vấn tất cả các cá nhân thuộc lớp Person
+
+PREFIX chev: <https://CHeVIE.vn/ontologies/>
+
+SELECT ?person
+WHERE {
+  ?person a chev:Person .
+}
+
+
+
+
+2. Lấy tất cả các triều đại (Dynasty)
+
+PREFIX chev: <https://CHeVIE.vn/ontologies/>
+
+SELECT ?dynasty 
+WHERE {
+  ?dynasty a chev:Dynasty .
+}
+LIMIT 10
+
+
+
+3. Lấy tất cả các nhân vật lịch sử (HistoricalFigure)
+
+PREFIX chev: <https://CHeVIE.vn/ontologies/>
+
+SELECT ?s WHERE {
+  ?s a chev:HistoricalFigure .
+}
+
+
